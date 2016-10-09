@@ -1,0 +1,31 @@
+#websites {
+	background: url('/assets/images/pattern-bg.svg');
+    padding: 1em 0;
+    
+	h2 {
+		margin: 2rem 1rem 1rem;
+	}
+
+	p {
+		margin: 0.5rem 1rem;
+	}
+}
+
+.websites__a--screenshot {
+	display: block;
+	height: 10em;
+	overflow: hidden;
+
+	@include media($medium_screen) {
+		height: 13em;
+	}
+
+	img {
+		margin: 0;
+		width: 100%;
+	}
+
+	&:hover {
+		background: transparent;
+	}
+}

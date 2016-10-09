@@ -1,0 +1,70 @@
+.selector {
+	@include font-size(14);
+	margin: 0 0 2em;
+	padding: 1em 0 0;
+	text-align: center;
+	width: 100%;
+
+	@include media($medium_screen) {
+		@include font-size(18);
+		@include large-screen-block();
+
+		padding-top: 0;
+	}
+}
+
+.selector__ul {
+	display: inline-block;
+
+	li {
+		display: inline-block;
+		margin-bottom: 1.5em;
+	}
+
+	a {
+		background: $white;
+		border: 1px solid $black;
+		border-radius: 5px;
+		color: $black;
+		margin-right: 10px;
+		padding: 0.5em 1.25em;
+
+		@include media($medium_screen) {
+			padding: 0.25em 1em;
+		}
+
+		&.selected, &:hover {
+			color: $white;
+		}
+	}
+}
+
+#all {
+	&.selected, &:hover {
+		background: $black;
+	}
+}
+
+#css {
+	&.selected, &:hover {
+		background: $green;
+	}
+}
+
+#javascript {
+	&.selected, &:hover {
+		background: $blue;
+	}
+}
+
+#utility {
+	&.selected, &:hover {
+		background: $orange;
+	}
+}
+
+#wordpress {
+	&.selected, &:hover {
+		background: $red;
+	}
+}

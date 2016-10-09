@@ -1,0 +1,75 @@
+.page-header {
+	background: rgba(0,0,0,0.85);
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+}
+
+.page-header__h1 {
+	font-size: 1em;
+	margin-bottom: 0;
+	padding: 0.25em;
+
+	@include media($medium_screen) {
+		float: left;
+		margin: 0 1em;
+	}
+
+	a {
+		background: url('/assets/images/thatdevgirl-logo.png') no-repeat center;
+		background-size: contain;
+		display: block;
+		font-size: 0;
+		height: 38px;
+		width: 100%;
+
+		@include media($medium_screen) {
+			background-size: auto;
+			height: 40px;
+			width: 253px;
+		}
+	}
+}
+
+.page-header__nav {
+	background: $red;
+	text-align: center;
+
+	@include media($medium_screen) {
+		background: transparent;
+		float: right;
+	}
+
+	li {
+		display: inline-block;
+
+		&.icon {
+			@include media($medium_screen) {
+				border-left: 1px solid $white;
+			}
+		}
+
+		@include media($medium_screen) {
+			display: block;
+			float: left;
+		}
+	}
+
+	a {
+		@include font-size(16);
+		color: $white;
+		display: block;
+		font-weight: 300;
+		padding: 0.5em 0.75em;
+
+		&:hover {
+			background: $red;
+		}
+
+		@include media($medium_screen) {
+			padding: 0.8em 1.5em;
+		}
+	}
+}

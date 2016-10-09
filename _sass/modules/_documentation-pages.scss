@@ -1,0 +1,87 @@
+.page-title {
+    background: lighten($blue, 10%);
+    margin: 0;
+    padding: 1em 0 2em;
+
+    h1 {
+        @include font-size(36);
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 0 2em 2em 0;
+        max-width: 20em;
+        white-space: nowrap;
+
+        &:hover {
+            background: lighten($orange, 20%);
+        }
+    }
+}
+
+.page-donate {
+    background: $black;
+    color: $white;
+    margin: 0;
+    padding: 2em 1em;
+    text-align: center;
+
+    p {
+        @include font-size(16);
+        margin: 0;
+    }
+
+    .btn {
+        max-width: 20em;
+    }
+}
+
+.page-documentation {
+    margin: 2em;
+
+    @include media($medium_screen) {
+        @include large-screen-block();
+    }
+
+    h2 {
+        border-bottom: 2px solid $red;
+        margin: 1em 0 2em;
+        padding-bottom: 0.5em;
+        text-align: center;
+    }
+
+    li {
+        list-style-type: disc; 
+        margin: 0 0 1em 3em;
+    }
+
+    img { 
+        border: 1px solid $black;
+        margin: 1em 0;
+        max-width: 90%;
+        width: auto;
+    }
+}
+
+.page-documentation__ul--features {
+    margin-top: 2em;
+
+    li {
+        list-style-type: none;
+        margin: 0 0 2em 0;
+    }
+
+    h3 {
+        @include font-size(16);
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+}
+
+.page-screenshots {
+    p {
+        text-align: center;
+    }
+}

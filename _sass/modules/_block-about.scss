@@ -1,0 +1,52 @@
+$hero-image: '/assets/images/monitor-bg.jpg';
+
+.about {
+    background-image: url($hero-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid $red;
+
+    .btn.primary:hover {
+        background: $orange;
+    }
+}
+
+.about-inner {
+    background: $blue_transparent;
+    height: 100%;
+    padding: 4em 2em 6em;
+    width: 100%;
+}
+
+.about__header {
+    text-align: center;
+
+    img {
+        height: 4em;
+        margin-bottom: 1em;
+    }
+
+    br {
+        @include media($medium_screen) {
+            display: none;
+        }
+    }
+
+    h1 {
+        color: $white;
+        line-height: 1.5em;
+        text-shadow: 1px 1px $black;
+    }
+}
+
+.about__p {
+    @include font-size(20);
+    color: $white;
+    margin: 0 auto 2em;
+    text-align: center;
+
+    @include media($large_screen) {
+        max-width: 60%;
+    }
+}

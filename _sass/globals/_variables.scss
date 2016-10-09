@@ -1,0 +1,39 @@
+/* ***
+ * Colors
+ */
+
+$black: #222;
+$white: #fff;
+
+$grey:        #444;
+$grey_light:  #efefef;
+
+$red:       #bb4030;
+$red_light: #f8ecea;
+
+$purple: #5530bb;
+$blue:   #30abbb;
+$green:  #30bb54;
+$orange: #bb9430;
+
+$blue_transparent:   rgba(48,171,187, 0.8);
+$orange_transparent: rgba(248,236,234, 0.75);
+
+/* ***
+ * Sizes
+ */
+
+$header_height: 50px;
+
+
+/* ***
+ * Breakpoints
+ */
+
+$small_screen_only: new-breakpoint(max-width 669px 12);
+
+$medium_screen:      new-breakpoint(min-width 670px 12);
+$medium_screen_only: new-breakpoint(min-width 670px max-width 1023px, 12);
+
+$medlg_screen: new-breakpoint(min-width 760px 12);
+$large_screen: new-breakpoint(min-width 1024px 12);

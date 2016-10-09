@@ -1,0 +1,70 @@
+#code {
+	@include font-size(16);
+	background: lighten($blue, 15%);
+	display: block;
+	font-family: 'Consolas', Helvetica, sans-serif;
+	margin: 0;
+	padding: 2em 1em;
+	width: 100%;
+
+	@include media($medium_screen) {
+		@include font-size(20);
+		padding: 3em 5em;
+	}
+
+	p {
+		@include font-size(16);
+		margin: 0.5em 0;
+
+		@include media($medium_screen) {
+			@include font-size(20);
+		}
+	}
+
+	a:hover {
+		background: lighten($blue, 25%);
+	}
+
+	.btn.primary {
+		@include font-size(16);
+		font-weight: 300;
+		margin-top: 2em;
+
+		&:hover {
+			background: $orange;
+		}
+	}
+}
+
+.code__div {
+	margin: 0 2em;
+
+	@include media($medium_screen) {
+		@include large-screen-block();
+	}
+}
+
+.code__dl {
+	margin: 0 2em;
+
+	dt {
+		clear: both;
+		display: block;
+		font-weight: bold;
+		width: 8em;
+
+		@include media($medium_screen) {
+			float: left;
+		}
+	}
+
+	dd {
+		display: block;
+		margin-bottom: 1em;
+		
+		@include media($medium_screen) {
+			margin-bottom: 0;
+			overflow: hidden;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@mixin font-size($size: 16, $line: $size * 1.5) {
+    $px_size: $size;
+    $px_line: $line;
+
+    $rem_size: $size / 16;
+    $rem_line: $line / 16;
+
+    font-size: $px_size + px;
+    font-size: $rem_size + rem;
+
+    line-height: $px_line + px;
+    line-height: $rem_line + rem;
+}
+
+@mixin large-screen-block() {
+	@include span-columns(8 of 12);
+	@include shift(2 of 12);
+}
