@@ -1,7 +1,7 @@
 ---
 permalink: "/projects/wc-tiered-shipping/"
 layout: page
-title:  WC Tiered Shipping
+title:  WC Tiered Shipping | That Dev Girl, LLC
 ---
 
 <section class="page-title">

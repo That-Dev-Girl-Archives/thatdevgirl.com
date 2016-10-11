@@ -16,7 +16,8 @@
         white-space: nowrap;
 
         &:hover {
-            background: lighten($orange, 20%);
+            background: $red;
+            color: $white;
         }
     }
 }
@@ -53,11 +54,11 @@
     }
 
     li {
-        list-style-type: disc; 
+        list-style-type: disc;
         margin: 0 0 1em 3em;
     }
 
-    img { 
+    img {
         border: 1px solid $black;
         margin: 1em 0;
         max-width: 90%;

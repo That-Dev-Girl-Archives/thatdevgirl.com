@@ -1,5 +1,6 @@
 ---
 layout: home
+title: That Dev Girl, LLC | Website and tool design and development
 ---
 
 <section class="about" id="top">
@@ -218,7 +219,7 @@ layout: home
 				<h2>Peace</h2>
 				<p>Facebook profile picture generator app that adds an image of the Earth over your existing profile picture.</p>
 				<p>
-					<a href="/peace" class="btn tool">Application</a> <br>
+					<!-- <a href="/peace" class="btn tool">Application</a> <br> -->
 					<a href="https://github.com/thatdevgirl/peace" target="_blank" class="btn tool">GitHub</a>
 				</p>
 			</article>
