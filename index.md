@@ -146,7 +146,8 @@ title: That Dev Girl, LLC | Website and tool design and development
 			<article class="wordpress">
 				<h2>AJAX "Load More" Pagination</h2>
 				<p>Add a "load more" button to your archive and search results pages to dynamically load additional posts without pagination or page loads.</p>
-				<p><a href="https://github.com/thatdevgirl/load-more" target="_blank" class="btn tool">GitHub</a></p>
+        <a href="/projects/load-more" class="btn tool">Documentation</a> <br>
+				<p><a href="https://github.com/thatdevgirl/wordpress-load-more" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
 			<article class="javascript">
@@ -172,7 +173,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				<p>Color palette creation plugin for WordPress.</p>
 				<p>
 					<a href="/projects/color-palette" class="btn tool">Documentation</a> <br>
-					<a href="https://github.com/thatdevgirl/color-palette" target="_blank" class="btn tool">GitHub</a>
+					<a href="https://github.com/thatdevgirl/wordpress-color-palette" target="_blank" class="btn tool">GitHub</a>
 				</p>
 			</article>
 
