@@ -1,1 +1,0 @@
-# Accessible Development For All!
