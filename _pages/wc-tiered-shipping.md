@@ -4,7 +4,7 @@ layout: page
 title:  WC Tiered Shipping | That Dev Girl, LLC
 ---
 
-<section class="page-title">
+<section class="page-title" aria-label="Primary plugin information">
 	<div class="container">
 		<h1>WC Tiered Shipping</h1>
 
@@ -19,12 +19,12 @@ title:  WC Tiered Shipping | That Dev Girl, LLC
 	</div>
 </section>
 
-<section class="page-donate">
+<section class="page-donate" aria-label="Donation information">
 	<p>Love this plugin?  Want to support this developer?</p>
 	<a href="https://www.paypal.me/thatdevgirl" class="btn primary"><i class="fa fa-heart"></i> Donate and share the love!</a>
 </section>
 
-<section class="page-documentation">
+<section class="page-documentation" aria-label="Plugin features">
 	<h2>Features</h2>
 
 	<p>
@@ -52,7 +52,7 @@ title:  WC Tiered Shipping | That Dev Girl, LLC
 	</ul>
 </section>
 
-<section class="page-documentation">
+<section class="page-documentation" aria-label="Plugin details">
 	<h2>Details</h2>
 
 	<p>
@@ -79,7 +79,7 @@ title:  WC Tiered Shipping | That Dev Girl, LLC
 	</ul>
 </section>
 
-<section class="page-documentation page-screenshots">
+<section class="page-documentation page-screenshots" aria-label="Screenshots">
 	<h2>Screenshots</h2>
 
 	<p>

@@ -3,10 +3,10 @@ layout: home
 title: That Dev Girl, LLC | Website and tool design and development
 ---
 
-<section class="about" id="top">
+<section class="about" id="top" aria-label="About my business">
   <div class="about-inner">
 
-    <header class="about__header">
+    <header class="about__header" aria-label="About my business section header">
       <img src="/assets/images/thatdevgirl-logo-sm.png" alt="That Dev Girl Logo">
       <h1>Better Code. <br> Better Websites.</h1>
     </header>
@@ -24,12 +24,12 @@ title: That Dev Girl, LLC | Website and tool design and development
   </div>
 </section>
 
-<section id="websites">
+<section id="websites" aria-label="Websites">
 	<div class="container">
 		<h1>Websites.</h1>
 
 		<div class="flex-container">
-			<article class="flex-card">
+			<article class="flex-card" aria-label="McCourt School">
 				<a href="http://mccourt.georgetown.edu" target="_blank" class="websites__a--screenshot">
 					<img src="/assets/images/project-mccourt.jpg" alt="McCourt School home page" />
 				</a>
@@ -57,7 +57,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				<a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary">View Site</a>
 			</article>
 
-			<article class="flex-card">
+			<article class="flex-card" aria-label="SemanticClarity">
 				<a href="http://www.semanticclarity.com" target="_blank" class="websites__a--screenshot">
 					<img src="/assets/images/project-semanticclarity.jpg" alt="SemanticClarity home page" />
 				</a>
@@ -83,7 +83,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				<a href="http://www.semanticclarity.com" target="_blank" class="btn primary">View Site</a>
 			</article>
 
-			<article class="flex-card">
+			<article class="flex-card" aria-label="Chicago Community Trust">
 				<a href="http://www.cct.org" target="_blank" class="websites__a--screenshot">
 					<img src="/assets/images/project-cct.jpg" alt="Chicago Community Trust home page" />
 				</a>
@@ -105,7 +105,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				<a href="http://www.cct.org" target="_blank" class="btn primary">View Site</a>
 			</article>
 
-			<article class="flex-card">
+			<article class="flex-card" aria-label="Macys">
 				<div class="websites__a--screenshot">
 					<img src="/assets/images/project-macys.jpg" alt="Macy's" />
 				</div>
@@ -128,7 +128,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 	</div> <!-- /.container -->
 </section>
 
-<section id="tools">
+<section id="tools" aria-label="Tools and Projects">
 	<div class="container">
 		<h1>Tools and Projects.</h1>
 
@@ -143,32 +143,32 @@ title: That Dev Girl, LLC | Website and tool design and development
 		</div>
 
 		<div class="tools-container">
-			<article class="wordpress">
+			<article class="wordpress" aria-label="AJAX Pagination">
 				<h2>AJAX "Load More" Pagination</h2>
 				<p>Add a "load more" button to your archive and search results pages to dynamically load additional posts without pagination or page loads.</p>
         <a href="/projects/load-more" class="btn tool">Documentation</a> <br>
 				<p><a href="https://github.com/thatdevgirl/wordpress-load-more" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="Backbone Recursive Navigation">
 				<h2>Backbone Recursive Navigation</h2>
 				<p>This component is a Backbone.js model and view that can be used to construct an infinitely deep navigation or nested list.</p>
 				<p><a href="https://github.com/thatdevgirl/backbone-navigation" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="Backgrid Cell Extensions">
 				<h2>Backgrid Cell Extensions</h2>
 				<p>This library contains a series of Backgrid cell extensions.</p>
 				<p><a href="https://github.com/thatdevgirl/backgrid-cell-extensions" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="Character Counter">
 				<h2>Character Counter</h2>
 				<p>Character counter written in jQuery.</p>
 				<p><a href="https://github.com/thatdevgirl/character-count" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="wordpress">
+			<article class="wordpress" aria-label="Color Palette Plugin">
 				<h2>Color Palette Plugin</h2>
 				<p>Color palette creation plugin for WordPress.</p>
 				<p>
@@ -177,37 +177,37 @@ title: That Dev Girl, LLC | Website and tool design and development
 				</p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="Color Sequencing Dialog">
 				<h2>Color Sequencing Dialog</h2>
 				<p>This color sequencing widget was developed as a proof of concept to reorder large numbers of content blocks inside a YUI dialog box.</p>
 				<p><a href="https://github.com/thatdevgirl/color-sequencing" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="css">
+			<article class="css" aria-label="CSS Mega Menu">
 				<h2>CSS Mega Menu</h2>
 				<p>This simple mega navigation menu is inspired by the many mega menus on retail and other websites.</p>
 				<p><a href="https://github.com/thatdevgirl/css-mega-menu" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="css">
+			<article class="css" aria-label="CSS Menu">
 				<h2>CSS Menu</h2>
 				<p>This simple navigation menu demonstrates how to create a main navigation menu with drop down sub-menus using just CSS.</p>
 				<p><a href="https://github.com/thatdevgirl/css-menu" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="CSV to JSON Converter">
 				<h2>CSV to JSON Converter</h2>
 				<p>This script will convert a CSV file to JSON. That's it!</p>
 				<p><a href="https://github.com/thatdevgirl/csv-to-json" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="utility">
+			<article class="utility" aria-label="Flickr Place Image">
 				<h2>Flickr Place Image</h2>
 				<p>Script that uses the Flickr API to provide placeholder images for web developers and designers.</p>
 				<p><a href="https://github.com/thatdevgirl/flickr-place-image" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="utility">
+			<article class="utility" aria-label="GitHub to Trello Migration">
 				<h2>GitHub to Trello Migration</h2>
 				<p>This page/script allows you to migrate GitHub tickets into Trello.</p>
 				<p>
@@ -216,7 +216,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				</p>
 			</article>
 
-			<article class="utility">
+			<article class="utility" aria-label="Peace">
 				<h2>Peace</h2>
 				<p>Facebook profile picture generator app that adds an image of the Earth over your existing profile picture.</p>
 				<p>
@@ -225,13 +225,13 @@ title: That Dev Girl, LLC | Website and tool design and development
 				</p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="Text Area Limit">
 				<h2>Text Area Limit</h2>
 				<p>This text area limit widget was developed as a proof of concept for implementing a character limit inside a text area.</p>
 				<p><a href="https://github.com/thatdevgirl/textarea-limit" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
-			<article class="wordpress">
+			<article class="wordpress" aria-label="WooCommerce Tiered Shipping Plugin">
 				<h2>WooCommerce Tiered Shipping Plugin</h2>
 				<p>This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.</p>
 				<p>
@@ -240,7 +240,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				</p>
 			</article>
 
-			<article class="javascript">
+			<article class="javascript" aria-label="Word Counter">
 				<h2>Word Counter</h2>
 				<p>Simple word counter in jQuery.</p>
 				<p><a href="https://github.com/thatdevgirl/word-counter" target="_blank" class="btn tool">GitHub</a></p>
@@ -250,12 +250,12 @@ title: That Dev Girl, LLC | Website and tool design and development
 	</div> <!-- /.container -->
 </section>
 
-<section id="talks">
+<section id="talks" aria-label="Public speaking">
 	<div class="container">
 		<h1>Talks.</h1>
 
 		<div class="flex-container">
-			<article class="flex-card">
+			<article class="flex-card" aria-label="Introduction to SVG">
 				<h2>Introduction to SVG</h2>
 
 				<p>
@@ -265,7 +265,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				<a href="https://github.com/thatdevgirl/svg-intro" class="btn primary" target="_blank">See notes on GitHub</a>
 			</article>
 
-			<article class="flex-card">
+			<article class="flex-card" aria-label="Introduction to Ember">
 				<h2>Introduction to Ember</h2>
 
 				<p>
@@ -277,7 +277,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 				</p>
 			</article>
 
-			<article class="flex-card">
+			<article class="flex-card" aria-label="CSS Navigation">
 				<h2>CSS Navigation</h2>
 
 				<p>
