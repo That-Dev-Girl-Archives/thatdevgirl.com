@@ -1,6 +1,6 @@
 #code {
 	@include font-size(16);
-	background: lighten($blue, 15%);
+	background: lighten($blue, 25%);
 	display: block;
 	font-family: 'Consolas', Helvetica, sans-serif;
 	margin: 0;
@@ -61,7 +61,7 @@
 	dd {
 		display: block;
 		margin-bottom: 1em;
-		
+
 		@include media($medium_screen) {
 			margin-bottom: 0;
 			overflow: hidden;

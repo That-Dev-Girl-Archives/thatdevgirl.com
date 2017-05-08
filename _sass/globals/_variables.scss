@@ -12,12 +12,12 @@ $red:       #bb4030;
 $red_light: #f8ecea;
 
 $purple: #5530bb;
-$blue:   #30abbb;
-$green:  #30bb54;
-$orange: #bb9430;
+$blue:   #237d89;
+$green:  #21873b;
+$orange: #907227;
 
-$blue_transparent:   rgba(48,171,187, 0.8);
-$orange_transparent: rgba(248,236,234, 0.75);
+$blue_transparent:   rgba($blue, 0.8);
+$orange_transparent: rgba($orange, 0.75);
 
 /* ***
  * Sizes
