@@ -231,6 +231,18 @@ title: That Dev Girl, LLC | Website and tool design and development
 				<p><a href="https://github.com/thatdevgirl/textarea-limit" target="_blank" class="btn tool">GitHub</a></p>
 			</article>
 
+      <article class="javascript" aria-label="Pie Frame">
+				<h2>Pie Frame</h2>
+				<p>A Javascript library that auto-generates responsive D3 charts from Google Sheets. <i>(In progress.)</i></p>
+				<p><a href="https://github.com/thatdevgirl/pie-frame" target="_blank" class="btn tool">GitHub</a></p>
+			</article>
+
+      <article class="utility" aria-label="Static Website Base">
+				<h2>Static Website Base</h2>
+				<p>My personal standard base code for static websites.</p>
+				<p><a href="https://github.com/thatdevgirl/static-website-base" target="_blank" class="btn tool">GitHub</a></p>
+			</article>
+
 			<article class="wordpress" aria-label="WooCommerce Tiered Shipping Plugin">
 				<h2>WooCommerce Tiered Shipping Plugin</h2>
 				<p>This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.</p>
@@ -255,7 +267,23 @@ title: That Dev Girl, LLC | Website and tool design and development
 		<h1>Talks.</h1>
 
 		<div class="flex-container">
-			<article class="flex-card" aria-label="Introduction to SVG">
+      <article class="flex-card" aria-label="Introduction to SVG">
+        <h2>Accessible Web Development</h2>
+
+        <p>
+          We develop websites for everyone to use, so why not make sure that everyone is able to
+          use our sites? We as developers need to plan for accessibility before we write our
+          first line of code.
+        </p>
+
+        <p>
+          This talk was given at NoVA CodeCamp in April 2017.
+        </p>
+
+        <a href="http://www.thatdevgirl.com/talks/accessibility" class="btn primary" target="_blank">See presentation slides</a>
+      </article>
+
+      <article class="flex-card" aria-label="Introduction to SVG">
 				<h2>Introduction to SVG</h2>
 
 				<p>
