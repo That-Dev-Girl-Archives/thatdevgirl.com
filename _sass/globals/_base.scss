@@ -98,7 +98,6 @@ blockquote {
     font-size: 1.4rem;
     font-style: italic;
     line-height: 1.4;
-    margin: 0;
 
     &:before {
       content: '“';
@@ -115,10 +114,8 @@ blockquote {
     }
   }
 
-  footer {
-    background: transparent;
-    color: lighten($grey, 10%);
-    font-size: 1rem;
+  cite {
+    margin-left: 2rem;
 
     &:before {
       content: '— ';
@@ -163,6 +160,10 @@ blockquote {
         &:hover {
             background: $blue;
         }
+    }
+
+    &.large {
+      font-size: 1.25em;
     }
 
     &.tool {

@@ -22,6 +22,17 @@
     }
 }
 
+.page-404 {
+  background: lighten($blue, 20%);
+  padding-bottom: 4em;
+
+  blockquote {
+    background: rgba($white, .3);
+    margin: 2em 0 4em;
+    padding: 2em;
+  }
+}
+
 .page-donate {
     background: $black;
     color: $white;
