@@ -267,7 +267,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 		<h1>Talks.</h1>
 
 		<div class="flex-container">
-      <article class="flex-card" aria-label="Introduction to SVG">
+      <article class="flex-card" aria-label="Accessible Web Development">
         <h2>Accessible Web Development</h2>
 
         <p>
