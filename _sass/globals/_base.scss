@@ -86,7 +86,7 @@ a {
     }
 }
 
-p a {
+p a:not(.btn) {
     text-decoration: underline;
 }
 
