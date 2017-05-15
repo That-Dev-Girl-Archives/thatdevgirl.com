@@ -60,7 +60,7 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-playground.jpg" alt="Whitehaven code playground screenshot" />
         </a>
 
-        <h2><a href="http://mccourt.georgetown.edu" target="_blank">Whitehaven Code Playground @ Georgetown</a></h2>
+        <h2><a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank">Whitehaven Code Playground @ Georgetown</a></h2>
 
         <p>
           Jekyll, jQuery, HTML, CSS, Bootstrap 4 (alpha)
@@ -80,7 +80,7 @@ title: That Dev Girl, LLC | Website and tool design and development
           training on the theme and Bootstrap.
         </p>
 
-        <a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary" aria-label="View McCourt School of Public Policy site">View Site</a>
+        <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank" class="btn primary" aria-label="View Whitehaven Code Playground site">View Site</a>
       </article>
 
       <article class="flex-card" aria-label="SemanticClarity">
