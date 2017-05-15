@@ -35,14 +35,14 @@ title: That Dev Girl, LLC | Website and tool design and development
         <h2><a href="http://mccourt.georgetown.edu" target="_blank">McCourt School of Public Policy @ Georgetown</a></h2>
 
         <p>
-          Drupal 7, Bootstrap 4, jQuery, Sass, CSS3, HTML5
+          Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS3, HTML5
         </p>
 
         <p class="hidden-sm">
           <strong>Involvement</strong> <br />
           I currently work full-time for Georgetown University as a Senior Javascript front-end developer in
-          our University Information Services department.  I worked with a small team of developers, designers,
-          and product managers to create a new, flexible Drupal 7 theme for the University's school websites.
+          our University Information Services department.  I worked with a team of developers, designers,
+          and product managers to create a flexible and responsive Drupal 7 themes for the University's school websites.
         </p>
 
         <p class="hidden-sm">
@@ -50,6 +50,34 @@ title: That Dev Girl, LLC | Website and tool design and development
           sites, many of which use an older theme (for now).  Our biggest challenge was creating
           this theme using best practices while not affecting sites on the older theme, knowing that both themes
           share many back-end modules and features.
+        </p>
+
+        <a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary" aria-label="View McCourt School of Public Policy site">View Site</a>
+      </article>
+
+      <article class="flex-card" aria-label="Whitehaven Code Playground">
+        <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank" class="websites__a--screenshot">
+          <img src="/assets/images/project-playground.jpg" alt="Whitehaven code playground screenshot" />
+        </a>
+
+        <h2><a href="http://mccourt.georgetown.edu" target="_blank">Whitehaven Code Playground @ Georgetown</a></h2>
+
+        <p>
+          Jekyll, jQuery, HTML, CSS, Bootstrap 4 (alpha)
+        </p>
+
+        <p class="hidden-sm">
+          <strong>Involvement</strong> <br />
+          This site is also part of my work at Georgetown University. I created this site as part of our
+          documentation efforts to encourage Drupal content editors be familiar with Bootstrap code
+          supported in our website themes.
+        </p>
+
+        <p class="hidden-sm">
+          Users can insert commonly used code blocks and immediately see what they will look like in our
+          Drupal 7 theme.  (The theme's stylesheet is included on this page.) Users are also encouraged
+          to play around with the code to update classes and add their own HTML as part of their
+          training on the theme and Bootstrap.
         </p>
 
         <a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary" aria-label="View McCourt School of Public Policy site">View Site</a>
@@ -145,7 +173,7 @@ title: That Dev Girl, LLC | Website and tool design and development
         <h2>AJAX "Load More" Pagination</h2>
         <p>Add a "load more" button to your archive and search results pages to dynamically load additional posts without pagination or page loads.</p>
         <p>
-          <a href="/projects/load-more" class="btn tool" aria-label="AJAX Pagination documentation">Documentation</a> 
+          <a href="/projects/load-more" class="btn tool" aria-label="AJAX Pagination documentation">Documentation</a>
           <br>
           <a href="https://github.com/thatdevgirl/wordpress-load-more" target="_blank" class="btn tool" aria-label="AJAX Pagination Github">GitHub</a>
         </p>
@@ -179,7 +207,7 @@ title: That Dev Girl, LLC | Website and tool design and development
         <h2>Color Palette Plugin</h2>
         <p>Color palette creation plugin for WordPress.</p>
         <p>
-          <a href="/projects/color-palette" class="btn tool" aria-label="Color Palette Plugin documentation">Documentation</a> 
+          <a href="/projects/color-palette" class="btn tool" aria-label="Color Palette Plugin documentation">Documentation</a>
           <br>
           <a href="https://github.com/thatdevgirl/wordpress-color-palette" target="_blank" class="btn tool" aria-label="Color Palette Plugin GitHub">GitHub</a>
         </p>
