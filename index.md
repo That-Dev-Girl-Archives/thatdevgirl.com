@@ -272,11 +272,13 @@ title: That Dev Girl, LLC | Website and tool design and development
         </p>
       </article>
 
-      <article class="javascript" aria-label="Text Area Limit">
-        <h2>Text Area Limit</h2>
-        <p>This text area limit widget was developed as a proof of concept for implementing a character limit inside a text area.</p>
+      <article class="javascript" aria-label="Phone Number Conversion">
+        <h2>Phone Number Conversion</h2>
+        <p>A quick tool to convert plain phone numbers into accessible phone number links.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/textarea-limit" target="_blank" class="btn tool" aria-label="Text Area Limit GitHub">GitHub</a>
+          <a href="https://georgetown-university.github.io/phone-conversion/" target="blank" class="btn tool" aria-label="Phone Conversion tool">Live Tool</a>
+          <br>
+          <a href="https://github.com/georgetown-university/phone-conversion/tree/gh-pages" target="_blank" class="btn tool" aria-label="Phone Conversion GitHub">GitHub</a>
         </p>
       </article>
 
@@ -293,6 +295,14 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>My personal standard base code for static websites.</p>
         <p>
           <a href="https://github.com/thatdevgirl/static-website-base" target="_blank" class="btn tool" aria-label="Static Website Base GitHub">GitHub</a>
+        </p>
+      </article>
+
+      <article class="javascript" aria-label="Text Area Limit">
+        <h2>Text Area Limit</h2>
+        <p>This text area limit widget was developed as a proof of concept for implementing a character limit inside a text area.</p>
+        <p>
+          <a href="https://github.com/thatdevgirl/textarea-limit" target="_blank" class="btn tool" aria-label="Text Area Limit GitHub">GitHub</a>
         </p>
       </article>
 
