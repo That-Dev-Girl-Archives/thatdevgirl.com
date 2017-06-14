@@ -27,6 +27,34 @@ title: That Dev Girl, LLC | Website and tool design and development
     <h1>Websites.</h1>
 
     <div class="flex-container">
+      <article class="flex-card" aria-label="Board Game Innovation">
+        <a href="http://www.boardgameinnovation.com" target="_blank" class="websites__a--screenshot">
+          <img src="/assets/images/project-bgi.jpg" alt="Board Game Innovation home page" />
+        </a>
+
+        <h2><a href="http://www.boardgameinnovation.com" target="_blank">Board Game Innovation</a></h2>
+
+        <p>
+          WordPress, WooCommerce, HTML, CSS, Bootstrap 4 (alpha), jQuery
+        </p>
+
+        <p class="hidden-sm">
+          <strong>Involvement</strong> <br />
+          BGI reached out to me in early 2017 to redesign and replatform their website.  I created a new
+          site design based on their logo and existing style guide standards. I also helped them evaluate
+          several ecommerce platforms, including Shopify and WooCommerce, to determine which platform would
+          best fit their needs.
+        </p>
+
+        <p class="hidden-sm">
+          I implemented the design in WordPress with WooCommerce.  The site also includes custom functionality,
+          including integration with Braintree for payment processing, integration with Stamps.com to provide
+          shipping options, and support for international pricing and checkout. The site launched in May 2017.
+        </p>
+
+        <a href="http://boardgameinnovation.com" target="_blank" class="btn primary" aria-label="View Board Game Innovation site">View Site</a>
+      </article>
+
       <article class="flex-card" aria-label="McCourt School">
         <a href="http://mccourt.georgetown.edu" target="_blank" class="websites__a--screenshot">
           <img src="/assets/images/project-mccourt.jpg" alt="McCourt School home page" />
