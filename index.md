@@ -32,11 +32,12 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-bgi.jpg" alt="Board Game Innovation home page" />
         </a>
 
-        <h2><a href="http://www.boardgameinnovation.com" target="_blank">Board Game Innovation</a></h2>
-
-        <p><b>Launch Date:</b> May 2017</p>
+        <h2>
+          <a href="http://www.boardgameinnovation.com" target="_blank">Board Game Innovation</a>
+          <small>(May 2017)</small>
+        </h2>
         
-        <p><b>Tech Stack:</b> WordPress, WooCommerce, HTML 5, CSS, Bootstrap 4 (alpha), jQuery</p>
+        <p>WordPress, WooCommerce, HTML 5, CSS, Bootstrap 4 (alpha), jQuery</p>
 
         <p>
           <b>Involvement.</b> <br />
@@ -60,11 +61,12 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-mccourt.jpg" alt="McCourt School home page" />
         </a>
 
-        <h2><a href="http://mccourt.georgetown.edu" target="_blank">McCourt School of Public Policy @ Georgetown</a></h2>
+        <h2>
+          <a href="http://mccourt.georgetown.edu" target="_blank">McCourt School of Public Policy @ Georgetown</a>
+          <small>(2016)</small>
+        </h2>
         
-        <p><b>Launch Date:</b> 2016</p>
-        
-        <p><b>Tech Stack:</b> Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS, HTML 5</p>
+        <p>Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS, HTML 5</p>
 
         <p>
           <b>Involvement.</b> <br />
@@ -88,11 +90,12 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-playground.jpg" alt="Whitehaven code playground screenshot" />
         </a>
 
-        <h2><a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank">Whitehaven Code Playground @ Georgetown</a></h2>
+        <h2>
+          <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank">Whitehaven Code Playground @ Georgetown</a>
+          <small>(2016)</small>
+        </h2>
         
-        <p><b>Launch Date:</b> 2016</p>
-        
-        <p><b>Tech Stack:</b> Jekyll, jQuery, HTML 5, CSS, Bootstrap 4 (alpha)</p>
+        <p>Jekyll, jQuery, HTML 5, CSS, Bootstrap 4 (alpha)</p>
 
         <p>
           <b>Involvement.</b> <br />
@@ -116,11 +119,12 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-semanticclarity.jpg" alt="SemanticClarity home page" />
         </a>
 
-        <h2><a href="http://www.semanticclarity.com" target="_blank">SemanticClarity</a></h2>
+        <h2>
+          <a href="http://www.semanticclarity.com" target="_blank">SemanticClarity</a>
+          <small>(February 2016)</small>
+        </h2>
         
-        <p><b>Launch Date:</b> February 2016</p>
-        
-        <p><b>Tech Stack:</b> Drupal 7, Sass, CSS, HTML 5</p>
+        <p>Drupal 7, Sass, CSS, HTML 5</p>
 
         <p>
           <b>Involvement.</b> <br />
@@ -141,11 +145,12 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-cct.jpg" alt="Chicago Community Trust home page" />
         </a>
 
-        <h2><a href="http://www.cct.org" target="_blank">Chicago Community Trust</a></h2>
+        <h2>
+          <a href="http://www.cct.org" target="_blank">Chicago Community Trust</a>
+          <small>(May 2015)</small>
+        </h2>
         
-        <p><b>Launch Date:</b> May 2015</p>
-        
-        <p><b>Tech Stack:</b> Wordpress, Javascript, SASS, CSS, HTML 5</p>
+        <p>Wordpress, Javascript, SASS, CSS, HTML 5</p>
 
         <p>
           <b>Involvement.</b> <br />
@@ -163,11 +168,12 @@ title: That Dev Girl, LLC | Website and tool design and development
           <img src="/assets/images/project-macys.jpg" alt="Macy's" />
         </div>
 
-        <h2>Macy's Internal Application</h2>
+        <h2>
+          Macy's Internal Application
+          <small>(2014)</small>
+        </h2>
         
-        <p><b>Launch Date:</b> 2014</p>
-        
-        <p><b>Tech Stack:</b> Backbone.js, Marionette, jQuery, Jasmine, CSS</p>
+        <p>Backbone.js, Marionette, jQuery, Jasmine, CSS</p>
 
         <p>
           <b>Involvement.</b> <br />
