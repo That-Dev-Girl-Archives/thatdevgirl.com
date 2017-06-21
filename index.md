@@ -383,7 +383,7 @@ title: That Dev Girl, LLC | Website and tool design and development
         </p>
 
         <p>
-          This talk was given at NoVA CodeCamp in April 2017.
+          This talk was given at NoVA CodeCamp in April 2017 and at ConvergeSE in June 2017.
         </p>
 
         <p>
