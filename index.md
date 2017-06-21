@@ -34,22 +34,22 @@ title: That Dev Girl, LLC | Website and tool design and development
 
         <h2><a href="http://www.boardgameinnovation.com" target="_blank">Board Game Innovation</a></h2>
 
-        <p>
-          WordPress, WooCommerce, HTML, CSS, Bootstrap 4 (alpha), jQuery
-        </p>
+        <p><b>Launch Date:</b> May 2017</p>
+        
+        <p><b>Tech Stack:</b> WordPress, WooCommerce, HTML 5, CSS, Bootstrap 4 (alpha), jQuery</p>
 
-        <p class="hidden-sm">
-          <strong>Involvement</strong> <br />
+        <p>
+          <b>Involvement.</b> <br />
           BGI reached out to me in early 2017 to redesign and replatform their website.  I created a new
           site design based on their logo and existing style guide standards. I also helped them evaluate
           several ecommerce platforms, including Shopify and WooCommerce, to determine which platform would
           best fit their needs.
         </p>
 
-        <p class="hidden-sm">
+        <p>
           I implemented the design in WordPress with WooCommerce.  The site also includes custom functionality,
           including integration with Braintree for payment processing, integration with Stamps.com to provide
-          shipping options, and support for international pricing and checkout. The site launched in May 2017.
+          shipping options, and support for international pricing and checkout.
         </p>
 
         <a href="http://boardgameinnovation.com" target="_blank" class="btn primary" aria-label="View Board Game Innovation site">View Site</a>
@@ -61,19 +61,19 @@ title: That Dev Girl, LLC | Website and tool design and development
         </a>
 
         <h2><a href="http://mccourt.georgetown.edu" target="_blank">McCourt School of Public Policy @ Georgetown</a></h2>
+        
+        <p><b>Launch Date:</b> 2016</p>
+        
+        <p><b>Tech Stack:</b> Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS, HTML 5</p>
 
         <p>
-          Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS3, HTML5
-        </p>
-
-        <p class="hidden-sm">
-          <strong>Involvement</strong> <br />
+          <b>Involvement.</b> <br />
           I currently work full-time for Georgetown University as a Senior Javascript front-end developer in
           our University Information Services department.  I worked with a team of developers, designers,
           and product managers to create a flexible and responsive Drupal 7 themes for the University's school websites.
         </p>
 
-        <p class="hidden-sm">
+        <p>
           The site is part of a Drupal 7 multi-site implementation that includes 300+ other university
           sites, many of which use an older theme (for now).  Our biggest challenge was creating
           this theme using best practices while not affecting sites on the older theme, knowing that both themes
@@ -89,19 +89,19 @@ title: That Dev Girl, LLC | Website and tool design and development
         </a>
 
         <h2><a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank">Whitehaven Code Playground @ Georgetown</a></h2>
+        
+        <p><b>Launch Date:</b> 2016</p>
+        
+        <p><b>Tech Stack:</b> Jekyll, jQuery, HTML 5, CSS, Bootstrap 4 (alpha)</p>
 
         <p>
-          Jekyll, jQuery, HTML, CSS, Bootstrap 4 (alpha)
-        </p>
-
-        <p class="hidden-sm">
-          <strong>Involvement</strong> <br />
+          <b>Involvement.</b> <br />
           This site is also part of my work at Georgetown University. I created this site as part of our
           documentation efforts to encourage Drupal content editors be familiar with Bootstrap code
           supported in our website themes.
         </p>
 
-        <p class="hidden-sm">
+        <p>
           Users can insert commonly used code blocks and immediately see what they will look like in our
           Drupal 7 theme.  (The theme's stylesheet is included on this page.) Users are also encouraged
           to play around with the code to update classes and add their own HTML as part of their
@@ -117,21 +117,20 @@ title: That Dev Girl, LLC | Website and tool design and development
         </a>
 
         <h2><a href="http://www.semanticclarity.com" target="_blank">SemanticClarity</a></h2>
+        
+        <p><b>Launch Date:</b> February 2016</p>
+        
+        <p><b>Tech Stack:</b> Drupal 7, Sass, CSS, HTML 5</p>
 
         <p>
-          Drupal, Sass, CSS3, HTML5
-        </p>
-
-        <p class="hidden-sm">
-          <strong>Involvement</strong> <br />
+          <b>Involvement.</b> <br />
           SemanticClarity reached out to me in late 2015 about relaunching their website in parallel with
           an initiative to refocus their business strategy.
         </p>
 
-        <p class="hidden-sm">
+        <p>
           I worked with them to create a new design based on their current branding and develop a flexible,
-          responsive Drupal theme based on that design. The new site was launched in February 2016 on the
-          Acquia platform.
+          responsive Drupal theme based on that design. The new site was on the Acquia platform.
         </p>
 
         <a href="http://www.semanticclarity.com" target="_blank" class="btn primary" aria-label="View SemanticClarity site">View Site</a>
@@ -143,15 +142,15 @@ title: That Dev Girl, LLC | Website and tool design and development
         </a>
 
         <h2><a href="http://www.cct.org" target="_blank">Chicago Community Trust</a></h2>
+        
+        <p><b>Launch Date:</b> May 2015</p>
+        
+        <p><b>Tech Stack:</b> Wordpress, Javascript, SASS, CSS, HTML 5</p>
 
         <p>
-          Wordpress, Javascript, SASS, CSS3, HTML5
-        </p>
-
-        <p class="hidden-sm">
-          <strong>Involvement</strong> <br />
+          <b>Involvement.</b> <br />
           I led the development of this project while working at AMS. Our team of developers collaborated
-          with the designer and managers to release this site in in May 2015.  The site won the 2015
+          with the designer, managers, and content editors during the course of the project. The site won the 2015
           <a href="http://www.mediapost.com/ommaawards/winners/" target="_blank">OMMA award for
           website excellence</a> in the charity/non-profit space.
         </p>
@@ -165,16 +164,23 @@ title: That Dev Girl, LLC | Website and tool design and development
         </div>
 
         <h2>Macy's Internal Application</h2>
+        
+        <p><b>Launch Date:</b> 2014</p>
+        
+        <p><b>Tech Stack:</b> Backbone.js, Marionette, jQuery, Jasmine, CSS</p>
 
         <p>
-          Backbone.js, Marionette, jQuery, Jasmine
-        </p>
-
-        <p class="hidden-sm">
-          <strong>Involvement</strong> <br />
+          <b>Involvement.</b> <br />
           At Optaros, I was the lead front-end developer on a team that re-platformed the UI of Macy's
-          internal product management application as a Backbone app.  This  also incorporated Marionette,
-          Require, Jasmine, and a custom light-weight CSS grid framework.
+          internal product management application as a Backbone application, using Marionette, Require, 
+          Jasmine, jQuery, and a custom light-weight CSS grid framework. We are created a library of core 
+          UI components to be used by us throughout this application, as well as by other Macy's teams.
+        </p>
+        
+        <p>
+          My primary function on this team was to create component designs for each section of the application 
+          in development. These component designs included the Backbone model structure, necessary REST calls for
+          a given section, and payloads for those REST calls.
         </p>
       </article>
     </div> <!-- /.flex-container -->
