@@ -46,6 +46,11 @@ h2 {
     @include font-size(22, 26);
     font-weight: 500;
     margin: 0.5rem 0 1rem;
+    
+    small {
+      @include font-size(16, 24);
+      color: $grey;
+    }
 }
 
 h3 {
