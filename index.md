@@ -332,7 +332,7 @@ title: That Dev Girl, LLC | Website and tool design and development
       
       <article class="utility" aria-label="Prototype Helper">
         <h2>Prototype Helper</h2>
-        <p>A utility site that lists and loads all of my favorite prototyping tools.</i></p>
+        <p>A utility site that lists and loads all of my favorite prototyping tools.</p>
         <p>
           <a href="http://www.thatdevgirl.com/prototype-helper" target="_blank" class="btn tool" aria-label="Prototype Helper Site">View Site</a>
         </p>
