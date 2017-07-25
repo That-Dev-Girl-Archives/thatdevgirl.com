@@ -34,7 +34,7 @@ Fortunately, everything in DC has a name and we can use these names to give even
 
 Better, right?
 
-<h3>Navigating a website is no different</h3>
+<h2>Navigating a website is no different</h2>
 
 The concept behind finding your way around a website is just like finding your way around a city. Instead of buildings and monuments, you would use HTML blocks to give your users cues as to what to expect where.
 
@@ -90,7 +90,7 @@ There are specific HTML tags that serve as landmarks for web users. These tags d
   </tbody>
 </table>
 
-<h3>Sweet! How do I use landmark tags?</h3>
+<h2>Sweet! How do I use landmark tags?</h2>
 
 The first step to using landmarks effectively is identifying the major sections of your website. Where are the site header and footer? What can be used as navigation? What major blocks of information exist on the page?
 
@@ -112,7 +112,7 @@ Once you have identified all of your landmarks, contain that section using the a
 </section>
 {% endhighlight %}
 
-<h3>Landmarks and labels</h3>
+<h2>Landmarks and labels</h2>
 
 A landmark is not very useful if you cannot tell them apart. Remember my first set of directions, where everything was <em>"the thing"</em>. Same concept here.
 
@@ -150,7 +150,7 @@ Labels are <strong>required</strong> for landmarks with redundant roles on the p
 </section>
 {% endhighlight %}
 
-<h3>Anything else I need to know?</h3>
+<h2>Anything else I need to know?</h2>
 
 There are a couple of additional requirements to know about when using landmarks.
 
