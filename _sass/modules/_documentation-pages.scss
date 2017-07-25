@@ -1,99 +1,99 @@
 .page-title {
-    background: lighten($blue, 10%);
-    margin: 0;
-    padding: 1em 0 2em;
+  background: lighten($blue, 10%);
+  margin: 0;
+  padding: 1rem 0 2rem;
 
-    h1 {
-        @include font-size(36);
-        font-weight: bold;
-        text-align: left;
+  h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 0 2rem 2rem 0;
+    max-width: 20rem;
+    white-space: nowrap;
+
+    &:hover {
+      background: $red;
+      color: $white;
     }
-
-    .btn {
-        display: inline-block;
-        margin: 0 2em 2em 0;
-        max-width: 20em;
-        white-space: nowrap;
-
-        &:hover {
-            background: $red;
-            color: $white;
-        }
-    }
+  }
 }
 
 .page-404 {
   background: lighten($blue, 20%);
-  padding-bottom: 4em;
+  padding-bottom: 4rem;
 
   blockquote {
-    background: rgba($white, .3);
-    margin: 2em 0 4em;
-    padding: 2em;
+    background: rgba($white, 0.3);
+    margin: 2rem 0 4rem;
+    padding: 2rem;
   }
 }
 
 .page-donate {
-    background: $black;
-    color: $white;
+  background: $black;
+  color: $white;
+  margin: 0;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  p {
+    font-size: 1rem;
     margin: 0;
-    padding: 2em 1em;
-    text-align: center;
+  }
 
-    p {
-        @include font-size(16);
-        margin: 0;
-    }
-
-    .btn {
-        max-width: 20em;
-    }
+  .btn {
+    max-width: 20rem;
+  }
 }
 
 .page-documentation {
-    margin: 2em;
+  margin: 2rem;
 
-    @include media($medium_screen) {
-        @include large-screen-block();
-    }
+  @include media($medium_screen) {
+    @include large-screen-block();
+  }
 
-    h2 {
-        border-bottom: 2px solid $red;
-        margin: 1em 0 2em;
-        padding-bottom: 0.5em;
-        text-align: center;
-    }
+  h2 {
+    border-bottom: 2px solid $red;
+    margin: 1rem 0 2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
 
-    li {
-        list-style-type: disc;
-        margin: 0 0 1em 3em;
-    }
+  li {
+    list-style-type: disc;
+    margin: 0 0 1rem 3rem;
+  }
 
-    img {
-        border: 1px solid $black;
-        margin: 1em 0;
-        max-width: 90%;
-        width: auto;
-    }
+  img {
+    border: 1px solid $black;
+    margin: 1rem 0;
+    max-width: 90%;
+    width: auto;
+  }
 }
 
 .page-documentation__ul--features {
-    margin-top: 2em;
+  margin-top: 2rem;
 
-    li {
-        list-style-type: none;
-        margin: 0 0 2em 0;
-    }
+  li {
+    list-style-type: none;
+    margin: 0 0 2rem;
+  }
 
-    h3 {
-        @include font-size(16);
-        font-weight: bold;
-        margin-bottom: 0.5em;
-    }
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .page-screenshots {
-    p {
-        text-align: center;
-    }
+  p {
+    text-align: center;
+  }
 }

@@ -1,9 +1,17 @@
-#websites {
+#sites {
 	background: url('/assets/images/pattern-bg.svg');
-    padding: 1em 0;
-    
-	h2 {
+    padding: 1rem 0;
+
+	h3 {
 		margin: 2rem 1rem 1rem;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 	}
 
 	p {
@@ -13,11 +21,11 @@
 
 .websites__a--screenshot {
 	display: block;
-	height: 10em;
+	height: 10rem;
 	overflow: hidden;
 
 	@include media($medium_screen) {
-		height: 13em;
+		height: 13rem;
 	}
 
 	img {

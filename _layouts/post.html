@@ -1,0 +1,27 @@
+{% include site-header.html %}
+{% include page-header-inner.html %}
+
+<article class="post">
+  <header aria-labelledby="article-title">
+    <div class="container">
+      <h1 id="article-title">{{page.title}}</h1>
+      <p>{{page.date | date_to_long_string}}</p>
+    </div>
+  </header>
+
+  <div class="taxonomy">
+    <div class="container">
+      <p>
+        <span>Categories:</span> {{page.categories}}
+        <span>Tags:</span> {{page.tags}}
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    {{content}}
+  </div>
+</article>
+
+{% include page-footer.html %}
+{% include site-footer.html %}

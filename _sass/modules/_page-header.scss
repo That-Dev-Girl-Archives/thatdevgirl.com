@@ -8,13 +8,13 @@
 }
 
 .page-header__h1 {
-	font-size: 1em;
+	font-size: 1rem;
 	margin-bottom: 0;
-	padding: 0.25em;
+	padding: 0.25rem;
 
 	@include media($medium_screen) {
 		float: left;
-		margin: 0 1em;
+		margin: 0 1rem;
 	}
 
 	a {
@@ -58,18 +58,19 @@
 	}
 
 	a {
-		@include font-size(16);
 		color: $white;
 		display: block;
+    font-size: 1rem;
 		font-weight: 300;
-		padding: 0.5em 0.75em;
+		padding: 0.5rem 0.75rem;
+    text-decoration: none;
 
 		&:hover {
 			background: $red;
 		}
 
 		@include media($medium_screen) {
-			padding: 0.8em 1.5em;
+			padding: 0.8rem 1.5rem;
 		}
 	}
 }

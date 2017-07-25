@@ -1,23 +1,23 @@
 #code {
-	@include font-size(16);
 	background: lighten($blue, 25%);
 	display: block;
 	font-family: 'Consolas', Helvetica, sans-serif;
+  font-size: 1rem;
 	margin: 0;
-	padding: 2em 1em;
+	padding: 2rem 1rem;
 	width: 100%;
 
 	@include media($medium_screen) {
-		@include font-size(20);
+		font-size: 1.25rem;
 		padding: 3em 5em;
 	}
 
 	p {
-		@include font-size(16);
-		margin: 0.5em 0;
+		font-size: 1rem;
+		margin: 0.5rem 0;
 
 		@include media($medium_screen) {
-			@include font-size(20);
+			font-size: 1.25rem;
 		}
 	}
 
@@ -26,9 +26,9 @@
 	}
 
 	.btn.primary {
-		@include font-size(16);
+		font-size: 1rem;
 		font-weight: 300;
-		margin-top: 2em;
+		margin-top: 2rem;
 
 		&:hover {
 			background: $orange;
@@ -37,7 +37,7 @@
 }
 
 .code__div {
-	margin: 0 2em;
+	margin: 0 2rem;
 
 	@include media($medium_screen) {
 		@include large-screen-block();
@@ -45,13 +45,14 @@
 }
 
 .code__dl {
-	margin: 0 2em;
+	margin: 0 2rem;
 
 	dt {
 		clear: both;
 		display: block;
 		font-weight: bold;
-		width: 8em;
+    line-height: 1.5;
+		width: 10rem;
 
 		@include media($medium_screen) {
 			float: left;
@@ -60,7 +61,8 @@
 
 	dd {
 		display: block;
-		margin-bottom: 1em;
+    line-height: 1.5;
+		margin-bottom: 1rem;
 
 		@include media($medium_screen) {
 			margin-bottom: 0;
