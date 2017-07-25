@@ -27,9 +27,8 @@
 
   // Taxonomy block.
   .taxonomy {
-    background: $orange;
-    color: $white;
-    padding: 0.5rem 0;
+    background: lighten($blue, 25%);
+    padding: 0.75rem 0;
 
     .container {
       margin-bottom: 0;
@@ -42,7 +41,7 @@
     }
 
     span {
-      color: $grey_light;
+      font-weight: bold;
       margin-left: 1.5rem;
 
       &:first-child {
