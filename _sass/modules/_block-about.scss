@@ -17,6 +17,11 @@ $hero-image: '/assets/images/monitor-bg.jpg';
   height: 100%;
   padding: 4rem 2rem 6rem;
   width: 100%;
+
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .about__header {

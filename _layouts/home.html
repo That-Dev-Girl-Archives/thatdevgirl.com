@@ -3,22 +3,7 @@
 
 {{content}}
 
-<section id="articles" aria-label="Blog articles">
-  <div class="container">
-    <h2>Articles.</h2>
-
-    <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
-
-  </div>
-</section>
-
+{% include block-articles.html %}
 {% include block-code.html %}
 
 {% include page-footer.html %}

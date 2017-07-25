@@ -34,15 +34,15 @@ select {
   color: $black;
   display: block;
   font-family: Helvetica,sans-serif;
-  margin: 2em auto 1em;
-  max-width: 16em;
-  padding: .75em 2em;
+  margin: 2rem auto 1rem;
+  max-width: 14rem;
+  padding: .75rem 2rem;
   text-align: center;
   text-decoration: none;
   width: auto;
 
   @include media($medium_screen) {
-    margin: 2em auto 1em;
+    margin: 2em 0 1em;
   }
 
   &.primary {
@@ -55,7 +55,7 @@ select {
   }
 
   &.large {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
   &.tool {

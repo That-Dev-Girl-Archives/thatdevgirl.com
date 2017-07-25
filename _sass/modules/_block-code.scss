@@ -42,6 +42,10 @@
 	@include media($medium_screen) {
 		@include large-screen-block();
 	}
+
+  .btn {
+    max-width: 16rem;
+  }
 }
 
 .code__dl {

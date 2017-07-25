@@ -53,7 +53,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           shipping options, and support for international pricing and checkout.
         </p>
 
-        <a href="http://boardgameinnovation.com" target="_blank" class="btn primary" aria-label="View Board Game Innovation site">View Site</a>
+        <p>
+          <a href="http://boardgameinnovation.com" target="_blank" class="btn primary" aria-label="View Board Game Innovation site">View Site</a>
+        </p>
       </article>
 
       <article class="flex-card" aria-label="McCourt School">
@@ -82,7 +84,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           share many back-end modules and features.
         </p>
 
-        <a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary" aria-label="View McCourt School of Public Policy site">View Site</a>
+        <p>
+          <a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary" aria-label="View McCourt School of Public Policy site">View Site</a>
+        </p>
       </article>
 
       <article class="flex-card" aria-label="Whitehaven Code Playground">
@@ -111,7 +115,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           training on the theme and Bootstrap.
         </p>
 
-        <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank" class="btn primary" aria-label="View Whitehaven Code Playground site">View Site</a>
+        <p>
+          <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank" class="btn primary" aria-label="View Whitehaven Code Playground site">View Site</a>
+        </p>
       </article>
 
       <article class="flex-card" aria-label="SemanticClarity">
@@ -137,7 +143,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           responsive Drupal theme based on that design. The new site was on the Acquia platform.
         </p>
 
-        <a href="http://www.semanticclarity.com" target="_blank" class="btn primary" aria-label="View SemanticClarity site">View Site</a>
+        <p>
+          <a href="http://www.semanticclarity.com" target="_blank" class="btn primary" aria-label="View SemanticClarity site">View Site</a>
+        </p>
       </article>
 
       <article class="flex-card" aria-label="Chicago Community Trust">
@@ -160,7 +168,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           website excellence</a> in the charity/non-profit space.
         </p>
 
-        <a href="http://www.cct.org" target="_blank" class="btn primary" aria-label="View Chicago Community Trust site">View Site</a>
+        <p>
+          <a href="http://www.cct.org" target="_blank" class="btn primary" aria-label="View Chicago Community Trust site">View Site</a>
+        </p>
       </article>
 
       <article class="flex-card" aria-label="Macys">
@@ -395,7 +405,7 @@ title: That Dev Girl, LLC | Website and tool design and development
         </p>
 
         <p>
-          <a href="http://www.thatdevgirl.com/talks/accessibility" class="btn primary" target="_blank" aria-label="Accessible Web Development presentation slides">See presentation slides</a>
+          <a href="http://www.thatdevgirl.com/talks/accessibility" class="btn primary" target="_blank" aria-label="Accessible Web Development slide deck">See slide deck</a>
         </p>
       </article>
 
