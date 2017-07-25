@@ -42,9 +42,9 @@ Separating text from image allows both the text and image to be responsive and a
 
 {% highlight html %}
 <section class="poster">
-<img src="books.jpg" alt="Person sitting at a table behind a pile of books. The top book is open.">
-<p class="headline">Reading.</p>
-<p class="tagline">It does a body good.</p>
+  <img src="books.jpg" alt="Person sitting at a table behind a pile of books. The top book is open.">
+  <p class="headline">Reading.</p>
+  <p class="tagline">It does a body good.</p>
 </section>
 {% endhighlight %}
 
