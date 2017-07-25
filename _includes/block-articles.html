@@ -11,7 +11,7 @@
 
           <p class="date">{{ post.date | date_to_long_string }}</p>
 
-          <p>{{ post.excerpt }}</p>
+          <p>{{ post.content | strip_html | truncatewords:30 }}</p>
 
           <p>
             <a href="{{ post.url }}" class="btn primary" aria-label="Read about {{ post.title }}">Read article</a>
