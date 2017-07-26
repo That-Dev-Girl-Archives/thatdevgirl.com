@@ -57,17 +57,6 @@ select {
   &.large {
     font-size: 1.25rem;
   }
-
-  &.tool {
-    background: rgba(255,255,255,.85);
-    box-shadow: 1px 1px 1px $grey;
-    font-weight: 500;
-    margin: 0 auto;
-
-    &:hover {
-      background: $white;
-    }
-  }
 }
 
 

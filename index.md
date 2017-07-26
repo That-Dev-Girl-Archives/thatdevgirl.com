@@ -27,7 +27,7 @@ title: That Dev Girl, LLC | Website and tool design and development
     <h2>Sites.</h2>
 
     <div class="flex-container">
-      <article class="flex-card" aria-label="Board Game Innovation">
+      <div class="flex-card">
         <a href="http://www.boardgameinnovation.com" target="_blank" class="websites__a--screenshot">
           <img src="/assets/images/project-bgi.jpg" alt="Board Game Innovation home page" />
         </a>
@@ -56,9 +56,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="http://boardgameinnovation.com" target="_blank" class="btn primary" aria-label="View Board Game Innovation site">View Site</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="McCourt School">
+      <div class="flex-card">
         <a href="http://mccourt.georgetown.edu" target="_blank" class="websites__a--screenshot">
           <img src="/assets/images/project-mccourt.jpg" alt="McCourt School home page" />
         </a>
@@ -87,9 +87,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="http://mccourt.georgetown.edu" target="_blank" class="btn primary" aria-label="View McCourt School of Public Policy site">View Site</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="Whitehaven Code Playground">
+      <div class="flex-card">
         <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank" class="websites__a--screenshot">
           <img src="/assets/images/project-playground.jpg" alt="Whitehaven code playground screenshot" />
         </a>
@@ -118,9 +118,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="https://georgetown-university.github.io/whitehaven-playground/" target="_blank" class="btn primary" aria-label="View Whitehaven Code Playground site">View Site</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="SemanticClarity">
+      <div class="flex-card">
         <a href="http://www.semanticclarity.com" target="_blank" class="websites__a--screenshot">
           <img src="/assets/images/project-semanticclarity.jpg" alt="SemanticClarity home page" />
         </a>
@@ -146,9 +146,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="http://www.semanticclarity.com" target="_blank" class="btn primary" aria-label="View SemanticClarity site">View Site</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="Chicago Community Trust">
+      <div class="flex-card">
         <a href="http://www.cct.org" target="_blank" class="websites__a--screenshot">
           <img src="/assets/images/project-cct.jpg" alt="Chicago Community Trust home page" />
         </a>
@@ -171,9 +171,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="http://www.cct.org" target="_blank" class="btn primary" aria-label="View Chicago Community Trust site">View Site</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="Macys">
+      <div class="flex-card">
         <div class="websites__a--screenshot">
           <img src="/assets/images/project-macys.jpg" alt="Macy's" />
         </div>
@@ -198,7 +198,7 @@ title: That Dev Girl, LLC | Website and tool design and development
           in development. These component designs included the Backbone model structure, necessary REST calls for
           a given section, and payloads for those REST calls.
         </p>
-      </article>
+      </div>
     </div> <!-- /.flex-container -->
 
   </div> <!-- /.container -->
@@ -219,168 +219,168 @@ title: That Dev Girl, LLC | Website and tool design and development
     </div>
 
     <div class="tools-container">
-      <article class="wordpress" aria-label="AJAX Pagination">
+      <div class="tool wordpress">
         <h3>AJAX "Load More" Pagination</h3>
         <p>Add a "load more" button to your archive and search results pages to dynamically load additional posts without pagination or page loads.</p>
         <p>
-          <a href="/projects/load-more" class="btn tool" aria-label="AJAX Pagination documentation">Documentation</a>
+          <a href="/projects/load-more" class="btn" aria-label="AJAX Pagination documentation">Documentation</a>
           <br>
-          <a href="https://github.com/thatdevgirl/wordpress-load-more" target="_blank" class="btn tool" aria-label="AJAX Pagination Github">GitHub</a>
+          <a href="https://github.com/thatdevgirl/wordpress-load-more" target="_blank" class="btn" aria-label="AJAX Pagination Github">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Backbone Recursive Navigation">
+      <div class="tool javascript">
         <h3>Backbone Recursive Navigation</h3>
         <p>This component is a Backbone.js model and view that can be used to construct an infinitely deep navigation or nested list.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/backbone-navigation" target="_blank" class="btn tool" aria-label="Backbone Recursive Navigation Github">GitHub</a>
+          <a href="https://github.com/thatdevgirl/backbone-navigation" target="_blank" class="btn" aria-label="Backbone Recursive Navigation Github">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Backgrid Cell Extensions">
+      <div class="tool javascript">
         <h3>Backgrid Cell Extensions</h3>
         <p>This library contains a series of Backgrid cell extensions.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/backgrid-cell-extensions" target="_blank" class="btn tool" aria-label="Backgrid Cell Extensions Github">GitHub</a>
+          <a href="https://github.com/thatdevgirl/backgrid-cell-extensions" target="_blank" class="btn" aria-label="Backgrid Cell Extensions Github">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Character Counter">
+      <div class="tool javascript">
         <h3>Character Counter</h3>
         <p>Character counter written in jQuery.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/character-count" target="_blank" class="btn tool" aria-label="Character Counter Github">GitHub</a>
+          <a href="https://github.com/thatdevgirl/character-count" target="_blank" class="btn" aria-label="Character Counter Github">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="wordpress" aria-label="Color Palette Plugin">
+      <div class="tool wordpress">
         <h3>Color Palette Plugin</h3>
         <p>Color palette creation plugin for WordPress.</p>
         <p>
-          <a href="/projects/color-palette" class="btn tool" aria-label="Color Palette Plugin documentation">Documentation</a>
+          <a href="/projects/color-palette" class="btn" aria-label="Color Palette Plugin documentation">Documentation</a>
           <br>
-          <a href="https://github.com/thatdevgirl/wordpress-color-palette" target="_blank" class="btn tool" aria-label="Color Palette Plugin GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/wordpress-color-palette" target="_blank" class="btn" aria-label="Color Palette Plugin GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Color Sequencing Dialog">
+      <div class="tool javascript">
         <h3>Color Sequencing Dialog</h3>
         <p>This color sequencing widget was developed as a proof of concept to reorder large numbers of content blocks inside a YUI dialog box.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/color-sequencing" target="_blank" class="btn tool" aria-label="Color Sequencing Dialog Github">GitHub</a>
+          <a href="https://github.com/thatdevgirl/color-sequencing" target="_blank" class="btn" aria-label="Color Sequencing Dialog Github">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="css" aria-label="CSS Mega Menu">
+      <div class="tool css">
         <h3>CSS Mega Menu</h3>
         <p>This simple mega navigation menu is inspired by the many mega menus on retail and other websites.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/css-mega-menu" target="_blank" class="btn tool" aria-label="CSS Mega Menu GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/css-mega-menu" target="_blank" class="btn" aria-label="CSS Mega Menu GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="css" aria-label="CSS Menu">
+      <div class="tool css">
         <h3>CSS Menu</h3>
         <p>This simple navigation menu demonstrates how to create a main navigation menu with drop down sub-menus using just CSS.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/css-menu" target="_blank" class="btn tool" aria-label="CSS Menu GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/css-menu" target="_blank" class="btn" aria-label="CSS Menu GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="CSV to JSON Converter">
+      <div class="tool javascript">
         <h3>CSV to JSON Converter</h3>
         <p>This script will convert a CSV file to JSON. That's it!</p>
         <p>
-          <a href="https://github.com/thatdevgirl/csv-to-json" target="_blank" class="btn tool" aria-label="CSV to JSON Converter GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/csv-to-json" target="_blank" class="btn" aria-label="CSV to JSON Converter GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="utility" aria-label="Flickr Place Image">
+      <div class="tool utility">
         <h3>Flickr Place Image</h3>
         <p>Script that uses the Flickr API to provide placeholder images for web developers and designers.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/flickr-place-image" target="_blank" class="btn tool" aria-label="Flickr Place Image GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/flickr-place-image" target="_blank" class="btn" aria-label="Flickr Place Image GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="utility" aria-label="GitHub to Trello Migration">
+      <div class="tool utility">
         <h3>GitHub to Trello Migration</h3>
         <p>This page/script allows you to migrate GitHub tickets into Trello.</p>
         <p>
-          <a href="https://rawgithub.com/thatdevgirl/github-to-trello/master/index.html" target="_blank" class="btn tool" aria-label="GitHub to Trello Migration live preview">Live Preview</a>
+          <a href="https://rawgithub.com/thatdevgirl/github-to-trello/master/index.html" target="_blank" class="btn" aria-label="GitHub to Trello Migration live preview">Live Preview</a>
           <br>
-          <a href="https://github.com/thatdevgirl/github-to-trello" target="_blank" class="btn tool" aria-label="GitHub to Trello Migration GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/github-to-trello" target="_blank" class="btn" aria-label="GitHub to Trello Migration GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="utility" aria-label="Peace">
+      <div class="tool utility">
         <h3>Peace</h3>
         <p>Facebook profile picture generator app that adds an image of the Earth over your existing profile picture.</p>
         <p>
-          <!-- <a href="/peace" class="btn tool" aria-label="Peace application>Application</a> <br> -->
-          <a href="https://github.com/thatdevgirl/peace" target="_blank" class="btn tool" aria-label="Peace GitHub">GitHub</a>
+          <!-- <a href="/peace" class="btn" aria-label="Peace application>Application</a> <br> -->
+          <a href="https://github.com/thatdevgirl/peace" target="_blank" class="btn" aria-label="Peace GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Phone Number Conversion">
+      <div class="tool javascript">
         <h3>Phone Number Conversion</h3>
         <p>A quick tool to convert plain phone numbers into accessible phone number links.</p>
         <p>
-          <a href="https://georgetown-university.github.io/phone-conversion/" target="blank" class="btn tool" aria-label="Phone Conversion tool">Live Tool</a>
+          <a href="https://georgetown-university.github.io/phone-conversion/" target="blank" class="btn" aria-label="Phone Conversion tool">Live Tool</a>
           <br>
-          <a href="https://github.com/georgetown-university/phone-conversion/tree/gh-pages" target="_blank" class="btn tool" aria-label="Phone Conversion GitHub">GitHub</a>
+          <a href="https://github.com/georgetown-university/phone-conversion/tree/gh-pages" target="_blank" class="btn" aria-label="Phone Conversion GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Pie Frame">
+      <div class="tool javascript">
         <h3>Pie Frame</h3>
         <p>A Javascript library that auto-generates responsive D3 charts from Google Sheets. <i>(In progress.)</i></p>
         <p>
-          <a href="https://github.com/thatdevgirl/pie-frame" target="_blank" class="btn tool" aria-label="Pie Frame GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/pie-frame" target="_blank" class="btn" aria-label="Pie Frame GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="utility" aria-label="Prototype Helper">
+      <div class="tool utility">
         <h3>Prototype Helper</h3>
         <p>A utility site that lists and loads all of my favorite prototyping tools.</p>
         <p>
-          <a href="http://www.thatdevgirl.com/prototype-helper" target="_blank" class="btn tool" aria-label="Prototype Helper Site">View Site</a>
+          <a href="http://www.thatdevgirl.com/prototype-helper" target="_blank" class="btn" aria-label="Prototype Helper Site">View Site</a>
         </p>
-      </article>
+      </div>
 
-      <article class="utility" aria-label="Static Website Base">
+      <div class="tool utility">
         <h3>Static Website Base</h3>
         <p>My personal standard base code for static websites.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/static-website-base" target="_blank" class="btn tool" aria-label="Static Website Base GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/static-website-base" target="_blank" class="btn" aria-label="Static Website Base GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Text Area Limit">
+      <div class="tool javascript">
         <h3>Text Area Limit</h3>
         <p>This text area limit widget was developed as a proof of concept for implementing a character limit inside a text area.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/textarea-limit" target="_blank" class="btn tool" aria-label="Text Area Limit GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/textarea-limit" target="_blank" class="btn" aria-label="Text Area Limit GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="wordpress" aria-label="WooCommerce Tiered Shipping Plugin">
+      <div class="tool wordpress">
         <h3>WooCommerce Tiered Shipping Plugin</h3>
         <p>This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.</p>
         <p>
-          <a href="/projects/wc-tiered-shipping" class="btn tool" aria-label="WooCommerce Tiered Shipping Plugin documentation">Documentation</a>
+          <a href="/projects/wc-tiered-shipping" class="btn" aria-label="WooCommerce Tiered Shipping Plugin documentation">Documentation</a>
           <br>
-          <a href="https://github.com/thatdevgirl/wc-tiered-shipping" target="_blank" class="btn tool" aria-label="WooCommerce Tiered Shipping Plugin GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/wc-tiered-shipping" target="_blank" class="btn" aria-label="WooCommerce Tiered Shipping Plugin GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="javascript" aria-label="Word Counter">
+      <div class="tool javascript">
         <h3>Word Counter</h3>
         <p>Simple word counter in jQuery.</p>
         <p>
-          <a href="https://github.com/thatdevgirl/word-counter" target="_blank" class="btn tool" aria-label="Word Counter GitHub">GitHub</a>
+          <a href="https://github.com/thatdevgirl/word-counter" target="_blank" class="btn" aria-label="Word Counter GitHub">GitHub</a>
         </p>
-      </article>
+      </div>
     </div> <!-- /.flex-container -->
 
   </div> <!-- /.container -->
@@ -391,7 +391,7 @@ title: That Dev Girl, LLC | Website and tool design and development
     <h2>Talks.</h2>
 
     <div class="flex-container">
-      <article class="flex-card" aria-label="Accessible Web Development">
+      <div class="flex-card">
         <h3>Accessible Web Development</h3>
 
         <p>
@@ -407,9 +407,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="http://www.thatdevgirl.com/talks/accessibility" class="btn primary" target="_blank" aria-label="Accessible Web Development slide deck">See slide deck</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="Introduction to SVG">
+      <div class="flex-card">
         <h3>Introduction to SVG</h3>
 
         <p>
@@ -419,9 +419,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="https://github.com/thatdevgirl/svg-intro" class="btn primary" target="_blank" aria-label="Introduction to SVG notes on GitHub">See notes on GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="Introduction to Ember">
+      <div class="flex-card">
         <h3>Introduction to Ember</h3>
 
         <p>
@@ -431,9 +431,9 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="https://github.com/thatdevgirl/ember-intro" class="btn primary" target="_blank" aria-label="Introduction to Ember notes on GitHub">See notes on GitHub</a>
         </p>
-      </article>
+      </div>
 
-      <article class="flex-card" aria-label="CSS Navigation">
+      <div class="flex-card">
         <h3>CSS Navigation</h3>
 
         <p>
@@ -443,7 +443,7 @@ title: That Dev Girl, LLC | Website and tool design and development
         <p>
           <a href="https://www.youtube.com/watch?v=3COhgSiF45c" class="btn primary" target="_blank" aria-label="CSS Navigation video on YouTube">View on YouTube</a>
         </p>
-      </article>
+      </div>
     </div> <!-- /.flex-container -->
 
   </div> <!-- /.container -->
