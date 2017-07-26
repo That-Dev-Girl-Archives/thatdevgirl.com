@@ -59,6 +59,30 @@
     margin-top: 3rem;
   }
 
+  .share {
+    background: lighten($red, 5%);
+    color: $white;
+    margin-top: 5rem;
+    padding: 1.5rem 0;
+
+    .label {
+      margin-right: 0.5rem;
+    }
+
+    a {
+      background: $red_light;
+      border-radius: 0.25rem;
+      color: $black;
+      font-size: 1.25rem;
+      margin: 0 0.5rem;
+      padding: 0.35rem 0.5rem;
+
+      &:hover {
+        background: lighten($orange, 25%);
+      }
+    }
+  }
+
   // Other styles
 
   h2 {
