@@ -13,7 +13,7 @@
     <div class="container">
       <p>
         {% for category in page.categories %}
-        <a href="/blog/{{category}}">{{ category | replace: "_", " " }}</a>
+        <a href="/blog/{{category | replace: ' ', '_' }}">{{ category | replace: "_", " " }}</a>
         {% endfor %}
       </p>
     </div>
