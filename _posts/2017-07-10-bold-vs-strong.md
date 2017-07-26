@@ -2,8 +2,9 @@
 layout: post
 title: "Bold and strong are not the same thing"
 date: "2017-07-10"
-categories: development
-tags: accessibility
+categories:
+  - development
+  - accessibility
 ---
 
 Believe it or not, the &lt;b&gt;, &lt;i&gt;, &lt;strong&gt;, and &lt;em&gt; tags have all been a part of the HTML spec since nearly the beginning. All four of these tags were introduced in HTML 2. However, for a very long time, the community was focused on the &lt;b&gt; and &lt;i&gt; tags only. It is only recently that the &lt;strong&gt; and &lt;em&gt; tags have become “popular”.

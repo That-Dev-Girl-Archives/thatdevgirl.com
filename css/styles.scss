@@ -17,13 +17,14 @@
 @import 'modules/page-footer';
 
 @import 'modules/block-about';
-@import 'modules/block-articles';
-@import 'modules/block-websites';
+@import 'modules/block-blog';
+@import 'modules/block-code';
+@import 'modules/block-talks';
 @import 'modules/block-tools';
 @import 'modules/block-tools-selector';
-@import 'modules/block-talks';
-@import 'modules/block-code';
+@import 'modules/block-websites';
 
+@import 'modules/category';
 @import 'modules/post';
 
 @import 'modules/documentation-pages';

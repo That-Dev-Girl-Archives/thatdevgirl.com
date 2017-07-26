@@ -1,0 +1,27 @@
+{% include site-header.html %}
+{% include page-header-inner.html %}
+
+<div class="category">
+  <header>
+    <div class="container">
+      <h1>All blog articles.</h1>
+    </div>
+  </header>
+
+  <div class="container">
+    {% unless page.content == '' %}
+      <p>{{ page.content }}</p>
+    {% endunless %}
+
+    <ul>
+    {% for post in site.posts %}
+      <li>
+        <p>{{ post.date | date_to_long_string }}</p>
+        <p class="title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+      </li>
+    {% endfor %}
+  </div>
+</div>
+
+{% include page-footer.html %}
+{% include site-footer.html %}

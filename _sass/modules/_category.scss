@@ -1,0 +1,32 @@
+.category {
+
+  header {
+    background: $blue;
+    color: $white;
+    padding: 3rem;
+
+    .container {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-family: 'Consolas', monospace;
+      margin-bottom: 0;
+      text-align: left;
+    }
+  }
+
+  ul li {
+    margin-bottom: 2rem;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .title {
+      font-size: 1.35rem;
+    }
+  }
+
+}

@@ -4,9 +4,9 @@ production_url: http://www.thatdevgirl.com
 icons: '/assets/icons'
 images: '/assets/images'
 
-sass_dir: _sass
+sass_dir: '/assets/_sass'
 sass:
   style: compressed
 
 include: ['_pages']
-permalink: /:categories/:title
+permalink: /blog/:title

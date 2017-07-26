@@ -4,16 +4,17 @@
 <article class="post">
   <header aria-labelledby="article-title">
     <div class="container">
-      <h1 id="article-title">{{page.title}}</h1>
-      <p>{{page.date | date_to_long_string}}</p>
+      <p>{{ page.date | date_to_long_string }}</p>
+      <h1 id="article-title">{{ page.title }}</h1>
     </div>
   </header>
 
   <div class="taxonomy">
     <div class="container">
       <p>
-        <span>Categories:</span> {{page.categories}}
-        <span>Tags:</span> {{page.tags}}
+        {% for category in page.categories %}
+        <a href="/blog/{{category}}">{{ category }}</a>
+        {% endfor %}
       </p>
     </div>
   </div>

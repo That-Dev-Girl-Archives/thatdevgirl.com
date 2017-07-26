@@ -2,8 +2,9 @@
 layout: post
 title: "Stop putting text in images"
 date: "2017-07-18"
-categories: development
-tags: accessibility
+categories:
+  - development
+  - accessibility
 ---
 
 I can’t believe it is 2017 and I have to say this, but stop putting text in your <b>#$@&\*% images!!!</b>
