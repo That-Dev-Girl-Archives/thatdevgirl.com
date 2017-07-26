@@ -1,5 +1,9 @@
 .site-wrapper {
-  margin-top: 50px;
+  margin-top: 86px;
+
+  @include media($large_screen) {
+    margin-top: 50px;
+  }
 }
 
 .container {
