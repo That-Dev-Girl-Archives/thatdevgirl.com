@@ -35,7 +35,7 @@ Fortunately, everything in DC has a name and we can use these names to give even
 
 Better, right?
 
-<h2>Navigating a website is no different</h2>
+## Navigating a website is no different
 
 The concept behind finding your way around a website is just like finding your way around a city. Instead of buildings and monuments, you would use HTML blocks to give your users cues as to what to expect where.
 
@@ -91,7 +91,7 @@ There are specific HTML tags that serve as landmarks for web users. These tags d
   </tbody>
 </table>
 
-<h2>Sweet! How do I use landmark tags?</h2>
+## Sweet! How do I use landmark tags?
 
 The first step to using landmarks effectively is identifying the major sections of your website. Where are the site header and footer? What can be used as navigation? What major blocks of information exist on the page?
 
@@ -115,7 +115,7 @@ Once you have identified all of your landmarks, contain that section using the a
 
 <h2>Landmarks and labels</h2>
 
-A landmark is not very useful if you cannot tell them apart. Remember my first set of directions, where everything was <em>"the thing"</em>. Same concept here.
+A landmark is not very useful if you cannot tell them apart. Remember my first set of directions, where everything was _"the thing"_. Same concept here.
 
 A landmark's role is one way that users can tell the difference between landmarks. For example, screen readers will announce the role of a particular landmark. They will say “banner” for &lt;header&gt; tags and "navigation" for &lt;nav&gt; tags, etc.
 
@@ -133,9 +133,9 @@ However, what happens when there is more than one landmark of a particular role 
 
 Users will not be able to tell the difference right away between these two sections. A screen reader will see both sections, but the only piece of information it will initially give to the user is that there are two landmarks with the role of “region”. It’s like saying that there are two buildings in my city. This can be a problem if a user is only interested in one section, but not the other.
 
-This is where <strong>labels</strong> come in. You can give your landmarks unique labels using the aria-label attribute, so that users can distinguish one from another.
+This is where __labels__ come in. You can give your landmarks unique labels using the aria-label attribute, so that users can distinguish one from another.
 
-Labels are <strong>required</strong> for landmarks with redundant roles on the page. They are optional for any landmarks that are the only role of its kind. For example:
+Labels are __required__ for landmarks with redundant roles on the page. They are optional for any landmarks that are the only role of its kind. For example:
 
 {% highlight html %}
 <header>
@@ -155,9 +155,7 @@ Labels are <strong>required</strong> for landmarks with redundant roles on the p
 
 There are a couple of additional requirements to know about when using landmarks.
 
-<ol>
-<li><b>Every piece of content on your web page is required to be inside of a landmark.</b> Having content outside of any landmark is like having a couch in the middle of the street — it’s kind of weird and your couch really belongs in a building.</li>
-<li><b>Always use the appropriate HTML landmark tag to markup your landmarks.</b> You could use the role attribute to assign a landmark role to another random tag — i.e. <div role=”banner”>. However, that is messy and not recommended. The HTML landmarks tags have their roles built in. Less code = better.</li>
-<li><b>Make sure your landmark labels make sense to a human.</b> After all, they will be read by (or rather, to, via a screen reader) a human. So, don’t treat the labels like IDs.</li>
-<li><b>Make sure your landmark labels are unique.</b> New York City does not have two Empire State buildings. Similarly, your webpage should not have two “All about the TARDIS” region landmarks.</li>
-</ol>
+1. __Every piece of content on your web page is required to be inside of a landmark.__ Having content outside of any landmark is like having a couch in the middle of the street — it’s kind of weird and your couch really belongs in a building.
+2. __Always use the appropriate HTML landmark tag to markup your landmarks.__ You could use the role attribute to assign a landmark role to another random tag — i.e. &lt;div role=”banner”&gt;. However, that is messy and not recommended. The HTML landmarks tags have their roles built in. Less code = better.
+3. __Make sure your landmark labels make sense to a human.__ After all, they will be read by (or rather, to, via a screen reader) a human. So, don’t treat the labels like IDs.
+4. __Make sure your landmark labels are unique.__ New York City does not have two Empire State buildings. Similarly, your webpage should not have two “All about the TARDIS” region landmarks.

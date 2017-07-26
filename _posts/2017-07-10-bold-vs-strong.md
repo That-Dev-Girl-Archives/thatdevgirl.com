@@ -41,7 +41,7 @@ In contrast, the &lt;i&gt; tag should be used for phrases that do not require em
 
 In short, pay attention to your content.  How should it look?  How would it sound if you were to read it out loud? Should there be an emphasis on a particular word to drive your point?  The answers to these questions will guide which tag to use to support your content.  
 
-<hr>
+---
 
 References:
 
