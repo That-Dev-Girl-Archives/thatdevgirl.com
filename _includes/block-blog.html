@@ -5,20 +5,22 @@
     <div class="flex-container">
       {% for post in site.posts limit:4 %}
         <div class="flex-card article">
+          <p class="date">{{ post.date | date_to_long_string }}</p>
+
           <p class="title">
             <a href="{{ post.url }}">{{ post.title }}</a>
           </p>
 
-          <p class="date">{{ post.date | date_to_long_string }}</p>
-
           <p>{{ post.content | strip_html | truncatewords:30 }}</p>
 
           <p>
-            <a href="{{ post.url }}" class="btn primary" aria-label="Read about {{ post.title }}">Read article</a>
+            <a href="{{ post.url }}" class="btn primary" aria-label="Read about {{ post.title }}">Read post</a>
           </p>
         </div>
       {% endfor %}
     </ul>
-
   </div>
+
+  <h3>Want to read more?</h3>
+  <p><a href="/blog" class="btn primary all">Check out all of my blog posts</a></p>
 </section>
