@@ -18,11 +18,10 @@
     }
 
     h1 {
-      font-family: 'Consolas', monospace;
+      font-family: $monospace;
       font-size: 2.75rem;
       line-height: 1;
       margin-bottom: 0.5rem;
-      text-align: left;
     }
 
     p {
@@ -34,11 +33,6 @@
   .taxonomy {
     background: lighten($blue, 25%);
     padding: 0.75rem 0;
-
-    .container {
-      margin-bottom: 0;
-      margin-top: 0;
-    }
 
     p {
       font-size: 0.9rem;
@@ -58,6 +52,11 @@
         background: $red;
       }
     }
+  }
+
+  .article {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
 
   // Other styles
@@ -99,7 +98,7 @@
 
   code {
     @include paragraph;
-    font-family: "Consolas", monospace;
+    font-family: $monospace;
 
     .nt {
       color: $red;

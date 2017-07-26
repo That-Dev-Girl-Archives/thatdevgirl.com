@@ -24,7 +24,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 
 <section id="sites" aria-label="Websites">
   <div class="container">
-    <h2>Sites.</h2>
+    <h2 class="center">Sites.</h2>
 
     <div class="flex-container">
       <div class="flex-card">
@@ -206,7 +206,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 
 <section id="tools" aria-label="Tools and Projects">
   <div class="container">
-    <h2>Tools and Projects.</h2>
+    <h2 class="center">Tools and Projects.</h2>
 
     <div class="selector">
       <ul class="selector__ul">
@@ -388,7 +388,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 
 <section id="talks" aria-label="Public speaking">
   <div class="container">
-    <h2>Talks.</h2>
+    <h2 class="center">Talks.</h2>
 
     <div class="flex-container">
       <div class="flex-card">

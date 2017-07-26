@@ -1,7 +1,7 @@
 #code {
 	background: lighten($blue, 25%);
 	display: block;
-	font-family: 'Consolas', Helvetica, sans-serif;
+	font-family: $monospace;
   font-size: 1rem;
 	margin: 0;
 	padding: 2rem 1rem;

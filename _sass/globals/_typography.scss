@@ -4,14 +4,13 @@
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: $sans;
 }
 
 h1, h2 {
   font-size: 2rem;
   line-height: 1;
   margin-bottom: 1rem;
-  text-align: center;
 }
 
 h3 {
