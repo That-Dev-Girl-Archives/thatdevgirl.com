@@ -13,14 +13,14 @@
     <div class="container">
       <p>
         {% for category in page.categories %}
-        <a href="/blog/{{category}}">{{ category }}</a>
+        <a href="/blog/{{category}}">{{ category | replace: "_", " " }}</a>
         {% endfor %}
       </p>
     </div>
   </div>
 
   <div class="container">
-    {{content}}
+    {{ content }}
   </div>
 </article>
 
