@@ -21,9 +21,14 @@
 		}
 	}
 
-	a:hover {
-		background: lighten($blue, 25%);
-	}
+  a:not(.btn) {
+    color: darken($red, 10%);
+    
+    &:hover {
+      color: $grey;
+      text-decoration: none;
+    }
+  }
 
 	.btn.primary {
 		font-size: 1rem;
