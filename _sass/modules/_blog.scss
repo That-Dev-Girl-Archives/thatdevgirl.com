@@ -1,0 +1,10 @@
+/* List of categories at the top of the blog archive page. */
+.category .categories {
+
+  .flex-card {
+    @include media($medium_screen) {
+      flex-basis: 18%;
+    }
+  }
+
+}

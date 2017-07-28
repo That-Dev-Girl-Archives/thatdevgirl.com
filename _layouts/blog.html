@@ -8,11 +8,29 @@
     </div>
   </header>
 
-  <div class="container list">
-    {% unless page.content == '' %}
+  {% unless page.content == '' %}
+    <div class="container">
       <p>{{ page.content }}</p>
-    {% endunless %}
+    </div>
+  {% endunless %}
 
+  <!-- <div class="categories">
+    <div class="container flex-container">
+      <div class="flex-card">
+        <p><b>Development</b></p>
+      </div>
+
+      <div class="flex-card">
+        <p><b>Accessibility</b></p>
+      </div>
+
+      <div class="flex-card">
+        <p><b>Javascript</b></p>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container list">
     <ul>
     {% for post in site.posts %}
       <li>
