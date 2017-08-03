@@ -14,23 +14,65 @@
     </div>
   {% endunless %}
 
-  <!-- <div class="categories">
+  <section class="categories" aria-label="List of blog categories">
     <div class="container flex-container">
-      <div class="flex-card">
-        <p><b>Development</b></p>
+      <div class="flex-card dev">
+        <p class="title"><a href="/blog/accessibility">Accessibility</a></p>
+        <p>Posts about developing accessible websites.</p>
+        <p><a href="/blog/accessibility" class="btn" aria-label="See all posts on accessibility">See posts</a></p>
       </div>
 
-      <div class="flex-card">
-        <p><b>Accessibility</b></p>
+      <div class="flex-card design">
+        <p class="title"><a href="/blog/css">CSS</a></p>
+        <p>Tips about CSS development.</p>
+        <p><a href="/blog/css" class="btn" aria-label="See all posts on CSS">See posts</a></p>
       </div>
 
-      <div class="flex-card">
-        <p><b>Javascript</b></p>
+      <div class="flex-card dev">
+        <p class="title"><a href="/blog/development">Development</a></p>
+        <p>All posts about development in general.</p>
+        <p><a href="/blog/development" class="btn" aria-label="See all posts on development">See posts</a></p>
+      </div>
+
+      <div class="flex-card dev">
+        <p class="title"><a href="/blog/git">Git</a></p>
+        <p>Source control tips and tricks specifically about Git.</p>
+        <p><a href="/blog/git" class="btn" aria-label="See all posts on Git">See posts</a></p>
+      </div>
+
+      <div class="flex-card people">
+        <p class="title"><a href="/blog/hiring">Hiring</a></p>
+        <p>Things I have learned while hiring people.</p>
+        <p><a href="/blog/hiring" class="btn" aria-label="See all posts on hiring">See posts</a></p>
+      </div>
+
+      <div class="flex-card dev">
+        <p class="title">Javascript</p>
+        <p>Tips about Javascript development.</p>
+        <p><a href="/blog/javascript" class="btn" aria-label="See all posts on Javascript">See posts</a></p>
+      </div>
+
+      <div class="flex-card people">
+        <p class="title"><a href="/blog/teaching">Teaching</a></p>
+        <p>Posts specifically about things I've learned while teaching.</p>
+        <p><a href="/blog/teaching" class="btn" aria-label="See all posts on teaching">See posts</a></p>
+      </div>
+
+      <div class="flex-card tech">
+        <p class="title"><a href="/blog/tech_tips">Tech Tips</a></p>
+        <p>Random technology tips.</p>
+        <p><a href="/blog/tech_tips" class="btn" aria-label="See all posts on tech tips">See posts</a></p>
+      </div>
+
+      <div class="flex-card design">
+        <p class="title"><a href="/blog/user_experience">User Experience</a></p>
+        <p>Posts about user experience.</p>
+        <p><a href="/blog/user_experience" class="btn" aria-label="See all posts on user experience">See posts</a></p>
       </div>
     </div>
-  </div> -->
+  </section>
 
-  <div class="container list">
+  <section class="container list" aria-label="List of all blog posts">
     <ul>
     {% for post in site.posts %}
       <li>
@@ -45,7 +87,7 @@
       </li>
     {% endfor %}
     </ul>
-  </div>
+  </section>
 </div>
 
 {% include page-footer.html %}

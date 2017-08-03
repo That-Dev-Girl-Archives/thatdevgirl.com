@@ -27,10 +27,10 @@ var selectProjects = {
 		e.preventDefault();
 
 		if (id == 'all') {
-			$('#tools article').removeClass('hide');
+			$('#tools div').removeClass('hide');
 		} else {
-			$('#tools article').addClass('hide');
-			$('#tools article.' + id).removeClass('hide');
+			$('#tools div').addClass('hide');
+			$('#tools div.' + id).removeClass('hide');
 		}
 
 		$('.selector a').removeClass('selected');
