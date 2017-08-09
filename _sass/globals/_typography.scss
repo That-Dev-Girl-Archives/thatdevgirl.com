@@ -79,3 +79,9 @@ blockquote {
     }
   }
 }
+
+code {
+  &.highlighter-rouge {
+    color: $red;
+  }
+}
