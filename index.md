@@ -37,10 +37,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           <small>(May 2017)</small>
         </h3>
 
-        <p>WordPress, WooCommerce, HTML 5, CSS, Bootstrap 4 (alpha), jQuery</p>
+        <p class="tech-stack">WordPress, WooCommerce, HTML 5, CSS, Bootstrap 4 (alpha), jQuery</p>
 
         <p>
-          <b>Involvement.</b> <br />
           BGI reached out to me in early 2017 to redesign and replatform their website.  I created a new
           site design based on their logo and existing style guide standards. I also helped them evaluate
           several ecommerce platforms, including Shopify and WooCommerce, to determine which platform would
@@ -68,10 +67,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           <small>(2016)</small>
         </h3>
 
-        <p>Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS, HTML 5</p>
+        <p class="tech-stack">Drupal 7, Bootstrap 4 (alpha), jQuery, Sass, CSS, HTML 5</p>
 
         <p>
-          <b>Involvement.</b> <br />
           I currently work full-time for Georgetown University as a Senior Javascript front-end developer in
           our University Information Services department.  I worked with a team of developers, designers,
           and product managers to create a flexible and responsive Drupal 7 themes for the University's school websites.
@@ -99,10 +97,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           <small>(2016)</small>
         </h3>
 
-        <p>Jekyll, jQuery, HTML 5, CSS, Bootstrap 4 (alpha)</p>
+        <p class="tech-stack">Jekyll, jQuery, HTML 5, CSS, Bootstrap 4 (alpha)</p>
 
         <p>
-          <b>Involvement.</b> <br />
           This site is also part of my work at Georgetown University. I created this site as part of our
           documentation efforts to encourage Drupal content editors be familiar with Bootstrap code
           supported in our website themes.
@@ -130,10 +127,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           <small>(February 2016)</small>
         </h3>
 
-        <p>Drupal 7, Sass, CSS, HTML 5</p>
+        <p class="tech-stack">Drupal 7, Sass, CSS, HTML 5</p>
 
         <p>
-          <b>Involvement.</b> <br />
           SemanticClarity reached out to me in late 2015 about relaunching their website in parallel with
           an initiative to refocus their business strategy.
         </p>
@@ -158,10 +154,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           <small>(May 2015)</small>
         </h3>
 
-        <p>Wordpress, Javascript, SASS, CSS, HTML 5</p>
+        <p class="tech-stack">Wordpress, Javascript, SASS, CSS, HTML 5</p>
 
         <p>
-          <b>Involvement.</b> <br />
           I led the development of this project while working at AMS. Our team of developers collaborated
           with the designer, managers, and content editors during the course of the project. The site won the 2015
           <a href="http://www.mediapost.com/ommaawards/winners/" target="_blank">OMMA award for
@@ -183,10 +178,9 @@ title: That Dev Girl, LLC | Website and tool design and development
           <small>(2014)</small>
         </h3>
 
-        <p>Backbone.js, Marionette, jQuery, Jasmine, CSS</p>
+        <p class="tech-stack">Backbone.js, Marionette, jQuery, Jasmine, CSS</p>
 
         <p>
-          <b>Involvement.</b> <br />
           At Optaros, I was the lead front-end developer on a team that re-platformed the UI of Macy's
           internal product management application as a Backbone application, using Marionette, Require,
           Jasmine, jQuery, and a custom light-weight CSS grid framework. We are created a library of core
@@ -334,7 +328,7 @@ title: That Dev Girl, LLC | Website and tool design and development
 
       <div class="tool javascript">
         <h3>Pie Frame</h3>
-        <p>A Javascript library that auto-generates responsive D3 charts from Google Sheets. <i>(In progress.)</i></p>
+        <p>A Javascript library that auto-generates responsive D3 charts from Google Sheets. <em>(In progress.)</em></p>
         <p>
           <a href="https://github.com/thatdevgirl/pie-frame" target="_blank" class="btn" aria-label="Pie Frame GitHub">GitHub</a>
         </p>

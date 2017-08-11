@@ -125,15 +125,15 @@
     font-family: $monospace;
 
     .nt {
-      color: $red;
+      color: darken($red, 5%);
     }
 
     .na {
-      color: $blue;
+      color: darken($blue, 5%);
     }
 
     .s {
-      color: $orange;
+      color: darken($orange, 5%);
     }
   }
 
