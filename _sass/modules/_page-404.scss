@@ -1,5 +1,6 @@
 .page-404 {
   background: lighten($blue, 20%);
+  padding: 4rem 0;
   
   h1 {
     font-size: 2.75rem;
@@ -8,18 +9,15 @@
   }
 
   blockquote {
-    background: rgba($white, 0.3);
-    margin: 2rem 0 4rem;
+    background: rgba($white, 0.6);
+    margin: 4rem 0;
     padding: 2rem;
   }
   
   .btn {
     background: $red;
     color: $white;
-    display: inline-block;
     margin: 0 2rem 2rem 0;
-    max-width: 20rem;
-    white-space: nowrap;
 
     &:hover {
       background: lighten($red, 10%);
