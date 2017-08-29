@@ -1,0 +1,28 @@
+.page-404 {
+  background: lighten($blue, 20%);
+  
+  h1 {
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  blockquote {
+    background: rgba($white, 0.3);
+    margin: 2rem 0 4rem;
+    padding: 2rem;
+  }
+  
+  .btn {
+    background: $red;
+    color: $white;
+    display: inline-block;
+    margin: 0 2rem 2rem 0;
+    max-width: 20rem;
+    white-space: nowrap;
+
+    &:hover {
+      background: lighten($red, 10%);
+    }
+  }
+}
