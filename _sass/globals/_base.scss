@@ -62,15 +62,6 @@ hr {
       background: $blue;
     }
   }
-  
-  &.p404 {
-    background: $red;
-    color: $white;
-
-    &:hover {
-      background: $green;
-    }
-  }
 
   &.large {
     font-size: 1.25rem;
