@@ -65,4 +65,4 @@ In both cases, I am grabbing the base libraries required for what I need to do h
 
 However, my real issue with YUI is that I need to declare 3 variables and include an if statement to update this text, whereas with jQuery, I can accomplish the same task in 1 line.  (I’m not counting the prevent default commands for either case here, since the 2 are basically equivalent.)
 
-This has been my biggest pet peeve about YUI.  Again, I am nto sure if it is due to inexperience, but the more I look at the YUI documentation, the more I think it is not me.
+This has been my biggest pet peeve about YUI.  Again, I am not sure if it is due to inexperience, but the more I look at the YUI documentation, the more I think it is not me.

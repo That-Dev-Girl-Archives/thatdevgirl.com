@@ -39,7 +39,7 @@ Turn on your screen reader of choice.  Have the reader read through the page seq
 Pull up the list of landmarks in your screen reader and test for the following things:
 
 1. __Landmarks exist__ <br> All content on the page must be inside of a landmark container.  Therefore, unless there is nothing on the page, at least one landmark must exist.
-2. __Existing landmarks have roles that make sense for their content__ <br> For example, a sidebar should have a complementary role, the main content of the page should have a main role, any navigation list should have a navigation role, etc.  If this is not the case, a more appropiate landmark role should be used.
+2. __Existing landmarks have roles that make sense for their content__ <br> For example, a sidebar should have a complementary role, the main content of the page should have a main role, any navigation list should have a navigation role, etc.  If this is not the case, a more appropriate landmark role should be used.
 3. __Redundant landmarks have labels__ <br> It is OK for a unique landmark to not have a label.  However, if there is more than one of any given landmark role on the page, all of those landmarks must have labels.
 4. __Landmark labels are unique and make sense__ <br> It doesn't help anyone to have two landmarks with the same label, especially if they are of the same role.  Also, landmark labels should effectively describe the content inside of their landmark
 
@@ -57,4 +57,4 @@ Pull up the list of links in your screen reader and test for the following thing
 
 1. __Links that go to different locations have unique names__ <br> A bunch of links that go to different URLs but all have the same link text confuse users because they cannot tell the difference between these links.  These links must have unique link text or be given unique ARIA labels.
 
-Ok, I know - this is a long list.  But your users with thank you for all of this work.  I promise. 
+Ok, I know - this is a long list.  But your users with thank you for all of this work.  I promise.

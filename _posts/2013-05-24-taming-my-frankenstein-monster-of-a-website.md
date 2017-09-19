@@ -6,15 +6,15 @@ categories:
   - development
 ---
 
-It was a disaster. My website, that is. I started my site with good intentions. All I wanted was a simple site with some basic information about me. Maybe my resume, too. After all, any serious web developer needs a website. So, I created my simple, static website and published it using Fastmail’s file services. I was already using [Fastmail](http://www.fastmail.fm/) for my e-mail and using a single service for my online needs was completely logical at the time.
+It was a disaster. My website, that is. I started my site with good intentions. All I wanted was a simple site with some basic information about me. Maybe my resume, too. After all, any serious web developer needs a website. So, I created my simple, static website and published it using Fastmail's file services. I was already using [Fastmail](http://www.fastmail.fm/) for my e-mail and using a single service for my online needs was completely logical at the time.
 
 ## Then things got complicated...
 
 Later on, I decided that I wanted to publish my photos to my website.  I love taking pictures and have a ton of digital photos dating back to the days when I used film and a scanner.  I started out using a home-grown photo gallery, but that was quickly becoming a pain to maintain.  Fastmail does not offer any advanced server support, so adding a more dynamic photo gallery on their servers was out of the question.
 
-Then, I discovered a miracle feature in Fastmail… the photo gallery.  I don’t remember the year I made this discovery, but it had to have been around 2005 or 2006.  I loved it – all I needed to do was upload my photos to a folder and… bam!  Instant photo gallery.  Upload a CSS file to that folder and suddenly my photo album had the same UI as the rest of my website.  Easy solution with no need to migrate my website.
+Then, I discovered a miracle feature in Fastmail... the photo gallery.  I don’t remember the year I made this discovery, but it had to have been around 2005 or 2006.  I loved it – all I needed to do was upload my photos to a folder and… bam!  Instant photo gallery.  Upload a CSS file to that folder and suddenly my photo album had the same UI as the rest of my website.  Easy solution with no need to migrate my website.
 
-And then, I decided I wanted a blog. Why? Because blogging is cool. Everyone is doing it and I wanted in. So, I started a blog on LiveJournal (remember that?) and eventually migrated it to WordPress.  I wanted to link my website and my blog together, but that seemed to be easier said than done.  I cannot install WordPress on Fastmail’s servers and migrating my photo gallery, which at that point had become quite extensive, into a WordPress install would have taken a significant amount of effort.
+And then, I decided I wanted a blog. Why? Because blogging is cool. Everyone is doing it and I wanted in. So, I started a blog on LiveJournal (remember that?) and eventually migrated it to WordPress.  I wanted to link my website and my blog together, but that seemed to be easier said than done.  I cannot install WordPress on Fastmail's servers and migrating my photo gallery, which at that point had become quite extensive, into a WordPress install would have taken a significant amount of effort.
 
 Long story short, I took one look at my website analytics _(thank you Google)_ and decided that integrating the two sites was not worth the effort at the time.  I experimented with different themes in WordPress to try to get it to match my main website, but it never felt quite right.
 
@@ -50,7 +50,7 @@ Fortunately, I discovered that GoDaddy offers free web hosting for customers who
 
 ## Final thoughts.
 
-The analytics on my website really did not justify the need for me to replatform my website like this, but I got to a point where I no longer cared.  That crazy monster website had been bothering me for way too long and it was definitely time for a change. And I feel so much better for it.
+The analytics on my website really did not justify the need for me to re-platform my website like this, but I got to a point where I no longer cared.  That crazy monster website had been bothering me for way too long and it was definitely time for a change. And I feel so much better for it.
 
 I am still on the fence about GoDaddy as a web host.  Administering my website is a snap there, but the server speeds vary a lot.  I am not sure if this is because I am using a free account here.  I have been considering upgrading to a paid account, but need more information to make sure it will help with the speed issues before I spend any money on it.  (Advice appreciated here!)
 
