@@ -6,7 +6,7 @@ categories:
   - accessibility
 ---
 
-I launched a survey to help me answer some lingering questions I have had about what tools screen reader users user to navigate websites.  Specifically, I wanted to learn about how users interact with links on a site. Test
+I launched a survey to help me answer some lingering questions I have had about what tools screen reader users user to navigate websites.  Specifically, I wanted to learn about how users interact with links on a site.
 
 ## What is this survey all about?
 
