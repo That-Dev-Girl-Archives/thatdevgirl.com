@@ -82,10 +82,6 @@ title:  WC Tiered Shipping | That Dev Girl, LLC
 <section class="page-documentation page-screenshots" aria-label="Screenshots">
 	<h2>Screenshots</h2>
 
-	<p>
-    <img src="{{site.images}}/wc-tiered-shipping-methods.jpg" alt="Screenshot of shipping methods settings section" />
-  </p>
-
   <p>
     <img src="{{site.images}}/wc-tiered-shipping-settings.jpg" alt="Screenshot of Tiered Shipping settings page" />
   </p>
