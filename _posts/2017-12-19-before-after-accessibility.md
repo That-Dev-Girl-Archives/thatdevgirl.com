@@ -4,6 +4,7 @@ title: "The Accessibility of ::before and ::after"
 date: "2017-12-19"
 categories:
   - accessibility
+  - development
 ---
 
 I was recently reading a tutorial on [how to use CSS counters](https://pineco.de/using-css-counters/). They look great! CSS counters are a new feature of CSS that allow us as developers to enumerate elements in the DOM and then do something with that information. There are plenty of practical uses for this - from numbering highlighted blocks in the text to creating complex nested ordered list bullets. _(I mean, we've all read government documents that include bullet point 13.2.4.1.  Right?)_
@@ -39,7 +40,7 @@ I tried! Firefox does not play well with screen readers. At all. When the browse
 
 <figure>
   <img src="/assets/images/posts/firefox-tab-content-dialog.jpg" alt="Firefox dialog stating 'Display of tab content is disabled due to incompatibility between Firefox and your accessibility software. Please update your screen reader or switch to Firefox Extended Support Release.'">
-  <figcaption>A very helpful Firefox dialog that pops up when you are running accessibility software.</figcaption>
+  <figcaption>A very "helpful" Firefox dialog that pops up when you are running accessibility software.</figcaption>
 </figure>
 
 The "solution" is to download the [Firefox Extended Support browser](https://www.mozilla.org/en-US/firefox/organizations/). Because, you know, making your base browser compatible with accessibility software is too hard.
