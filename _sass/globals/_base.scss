@@ -76,44 +76,6 @@ iframe {
 
 
 /* ***
- * Tables
- */
-
-table {
-  margin: 2rem 0;
-  max-width: 600px;
-  width: 90%;
-
-  thead {
-    background: $red;
-    color: $white;
-    text-align: left;
-  }
-
-  tbody tr {
-    border-bottom: 1px solid $black;
-
-    &:last-child {
-      border: 0;
-    }
-  }
-
-  td, th {
-    @include paragraph(1.2rem);
-    border-left: 1px solid $black;
-    padding: 0.5rem 1rem;
-
-    &:first-child {
-      border: 0;
-    }
-  }
-
-  th {
-    border-color: $white;
-  }
-}
-
-/* ***
  * SVGs
  */
 
