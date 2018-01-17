@@ -6,7 +6,10 @@
     }
   }
 
-  // Blog header block.
+  /**
+   * Blog header block
+   */
+
   header {
     background: url("/assets/images/pattern-bg.svg");
     display: inline-block;
@@ -29,7 +32,10 @@
     }
   }
 
-  // Taxonomy block.
+  /**
+   * Taxonomy block
+   */
+
   .taxonomy {
     background: lighten($blue, 25%);
     padding: 0.75rem 0;
@@ -83,7 +89,9 @@
     }
   }
 
-  // Other styles
+  /*
+   * Other styles
+   */
 
   h2 {
     margin: 3rem 0 1.5rem;

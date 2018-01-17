@@ -23,22 +23,22 @@
 }
 
 .flex-card {
+  @include box();
   background: $white;
-  border: 1px solid $black;
   color: $black;
   flex-basis: 100%;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 
   @include media($medium_screen) {
-    flex-basis: 45%;
+    flex-basis: 47%;
   }
 
   h2 a {
     color: $black;
 
     &:hover {
-        background: $red_light;
+      background: $red_light;
     }
   }
 }

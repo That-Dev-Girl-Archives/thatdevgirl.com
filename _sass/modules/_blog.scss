@@ -1,4 +1,7 @@
-/* List of categories at the top of the blog archive page. */
+/**
+ * List of categories at the top of the blog archive page.
+ */
+
 .category .categories {
 
   background: $grey;
@@ -29,7 +32,10 @@
       }
     }
 
-    /* CTA buttons */
+    /**
+     * CTA buttons
+     */
+     
     .btn {
       color: $white;
       max-width: 10rem;

@@ -13,12 +13,6 @@
     display: inline-block;
     margin: 0 2rem 2rem 0;
     max-width: 20rem;
-    white-space: nowrap;
-
-    &:hover {
-      background: $red;
-      color: $white;
-    }
   }
 }
 

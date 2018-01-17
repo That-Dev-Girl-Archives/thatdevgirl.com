@@ -1,0 +1,58 @@
+.btn {
+  background: $white;
+  border-radius: 5px;
+  color: $black;
+  display: block;
+  font-family: $sans;
+  margin: 2rem auto 1rem;
+  max-width: 14rem;
+  padding: .75rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: auto;
+
+  @include media($medium_screen) {
+    margin: 2em 0 1em;
+  }
+
+  &:hover {
+    position: relative;
+    top: -2px;
+  }
+
+  /**
+   * Primary buttons
+   */
+
+  &.primary {
+    background: $red;
+    color: $white;
+
+    &:hover {
+      background: $blue;
+    }
+  }
+
+  /**
+   * Documentation CTA buttons
+   */
+
+  &.doc-cta {
+    background: darken($blue, 10%);
+    color: $white;
+
+    &:hover {
+      background: $red;
+    }
+  }
+
+  /**
+   * Large buttons
+   */
+   
+  &.large {
+    font-size: 1.25rem;
+    max-width: 18rem;
+  }
+}
