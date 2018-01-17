@@ -50,9 +50,13 @@
   /**
    * Large buttons
    */
-   
+
   &.large {
     font-size: 1.25rem;
     max-width: 18rem;
+  }
+
+  .fa {
+    margin-right: 0.25rem;
   }
 }
