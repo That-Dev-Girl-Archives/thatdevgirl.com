@@ -21,17 +21,12 @@
 	}
 
 	a {
-		background: $white;
-		border: 1px solid $black;
+		background: $grey_light;
 		border-radius: 5px;
 		color: $black;
-		margin-right: 0.625rem;
+		margin-right: 0.75rem;
 		padding: 0.5rem 1.25rem;
     text-decoration: none;
-
-		@include media($medium_screen) {
-			padding: 0.25rem 1rem;
-		}
 
 		&.selected, &:hover {
 			color: $white;
