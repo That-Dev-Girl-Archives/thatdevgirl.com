@@ -5,13 +5,8 @@
 	h3 {
 		margin: 2rem 1.5rem 1rem;
 
-    a {
-      text-decoration: none;
-
-      &:hover {
-        color: $blue;
-        text-decoration: underline;
-      }
+    a:hover {
+      color: $blue;
     }
 	}
 
