@@ -23,7 +23,7 @@ Gutenberg has been controversial from its inception. However, [Rian Rietveld's r
 * Fundamental flaws in the editor's UI design.
 * A lack of governance around enforcing [WordPress accessible coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/accessibility-coding-standards/).
 
-There are calls from the community to perform an [accessibility audit on the Gutenberg editor](https://github.com/WordPress/gutenberg/issues/10318). However, regardless of whether the audit will happen or not, it seems that [accessibility concerns will not delay the release of 5.0](https://github.com/WordPress/gutenberg/issues/10318#issuecomment-429106511).
+There are calls from the community to perform an [accessibility audit on the Gutenberg editor](https://github.com/WordPress/gutenberg/issues/10318). However, regardless of whether the audit will happen or not, it seems that [accessibility concerns will not delay the release of 5.0](https://github.com/WordPress/gutenberg/issues/10318#issuecomment-429106511). ([I mean, really. Really?](https://twitter.com/bamadesigner/status/1050496609639952384))
 
 ## Curiosity is getting the better of me
 
