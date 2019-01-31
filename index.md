@@ -13,7 +13,7 @@ title: That Dev Girl, LLC | Website and tool design and development
     <p class="about__p">
       My name is Joni Halabi and I am a web developer in Washington DC.
       I create websites and applications for large and small organizations,
-      specializing WordPress, Drupal, and Javascript frameworks.
+      specializing in WordPress, Drupal, and Javascript applications.
     </p>
 
     <p>
