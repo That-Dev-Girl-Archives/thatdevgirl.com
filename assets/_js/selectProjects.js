@@ -1,43 +1,28 @@
-var selectProjects = {
-	go: function() {
-		var _this = this;
+const selectProjects = {
+  go: function() {
+    $( '#all, #css, #javascript, #utility, #wordpress' ).click( ( e ) => {
+      this.show( e );
+    } );
+  },
 
-		$('#all').click(function(e) {
-			_this.show(e, this.id);
-		});
+  show: function( e ) {
+    e.preventDefault();
+    const id = e.target.id;
 
-		$('#css').click(function(e) {
-			_this.show(e, this.id);
-		});
+    if ( id == 'all' ) {
+      // Show everything.
+      $( '#tools .tool:not(:visible)' ).slideDown();
+    } else {
+      // Hide everything that is not the selected ID.
+      $( '#tools .tool:not(.' + id + ')' ).slideUp();
+      $( '#tools .tool.' + id ).slideDown();
+    }
 
-		$('#javascript').click(function(e) {
-			_this.show(e, this.id);
-		});
-
-		$('#utility').click(function(e) {
-			_this.show(e, this.id);
-		});
-
-		$('#wordpress').click(function(e) {
-			_this.show(e, this.id);
-		});
-	},
-
-	show: function(e, id) {
-		e.preventDefault();
-
-		if (id == 'all') {
-			$('#tools div').removeClass('hide');
-		} else {
-			$('#tools div').addClass('hide');
-			$('#tools div.' + id).removeClass('hide');
-		}
-
-		$('.selector a').removeClass('selected');
-		$('#' + id).addClass('selected');
-	}
+    $( '.selector a' ).removeClass( 'selected' );
+    $( '#' + id ).addClass( 'selected' );
+  }
 };
 
-$(document).ready(function() {
+$( document ).ready(function() {
 	selectProjects.go();
 });
