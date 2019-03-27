@@ -11,3 +11,4 @@ sass:
 
 include: ['_pages']
 permalink: /blog/:title
+highlighter: rouge
