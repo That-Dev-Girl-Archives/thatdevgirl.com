@@ -10,23 +10,23 @@ I have been a professional developer for 20 years. Actually, I have been writing
 
 I go to work. I review a build plan for a new feature to a new website that is actually being built out by an outside design firm. My employer cites a lack of enough internal resources to handle this big project. I comment on the build plan, pointing out missing pieces of functionality and asking questions about spots where I have been burned before because I have built out this functionality in a past life.
 
-**I do not write code.**
+I do not write code.
 
 I perform user acceptance testing on code written by this design firm and spend hours in Jira filing bug reports, careful to note steps to reproduce issues. I write detailed rationale as to why the bug should be fixed and take screenshots (and in some cases video) of the issue. I look up WCAG guidelines to back up some of my rationales, since these issues are accessibility concerns.
 
-**I do not write code.**
+I do not write code.
 
 I code review other people's code, providing comments about code styles and algorithms, all the while jealous of the developer who submitted this code for me to review.
 
-**I do not write code.**
+I do not write code.
 
 I go to our daily stand-up meeting, listing all of the things I will do that day. I include development, as a hopeful side note.
 
-**I do not write code.**
+I do not write code.
 
 I sit in meetings to discuss workflows and process. I sit in meetings to discuss "the future" - where we see our websites and infrastructure six months from now. A year from now. Five years from now. I hold architecture planning meetings where we talk about how to get from our current state to "the future", all the while just trying to keep our current systems afloat.
 
-**I do not write code.**
+I do not write code.
 
 I go home. Some would ask me why I don't write code in my off hours. I cite everything I have written above, which is, frankly, a mentally exhausting day already. Besides (and more importantly), I want to spend time with my kid when I get home.
 
