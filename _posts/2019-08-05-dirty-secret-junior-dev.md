@@ -2,7 +2,7 @@
 layout: post
 title: "I have a dirty little secret: I want to be a junior dev again"
 date: "2019-08-05"
-hidden: true
+published: false
 categories:
   - development
 ---
