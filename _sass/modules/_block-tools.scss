@@ -70,12 +70,23 @@
     margin-bottom: 2rem;
   }
 
+  a {
+    color: $white;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
   .btn {
     background: rgba(255,255,255,0.85);
     color: $black;
     font-weight: 500;
     font-size: 0.9rem;
     margin: 0;
+    text-decoration: none;
 
     &:hover {
       background: $white;
