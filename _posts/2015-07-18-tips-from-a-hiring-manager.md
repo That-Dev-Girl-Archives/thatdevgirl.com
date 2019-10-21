@@ -7,7 +7,7 @@ categories:
   - hiring
 ---
 
-The job market has been really fantastic for developers, so much so that technical immersion programs, like [General Assembly](https://generalassemb.ly/) and the [Iron Yard](http://theironyard.com/), have become increasingly popular.  More developers than ever are entering the market, yet unemployment (at least in DC) is near zero (according to several local recruiters I have spoken to).
+The job market has been really fantastic for developers, so much so that technical immersion programs, like [General Assembly](https://generalassemb.ly/) and the Iron Yard, have become increasingly popular.  More developers than ever are entering the market, yet unemployment (at least in DC) is near zero (according to several local recruiters I have spoken to).
 
 As a hiring manager, I have seen many amazing candidates and many less-than-amazing candidates.  I am sure (at least some of) the less than amazing ones are actually amazing.  Here are 4 pieces of advice for the amazing and aspiring-amazing job seekers out there:
 

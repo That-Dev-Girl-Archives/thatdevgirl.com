@@ -22,4 +22,4 @@ Coding for kids!  I compiled this list for one person and thought… well… thi
 
 * __[Team Treehouse](http://teamtreehouse.com/tracks/ios-development-with-objectivec)__: This is a guided tutorial on creating iOS (iPhone) apps.  This is probably a little more adult / advanced, but it looks like a good one.  I strongly recommend that you have a basic understanding of programming concepts first.
 
-* __[Kano](http://www.kano.me/kit)__: This is a kit that you can buy that let’s you assemble a (small, simple) computer yourself.  It uses a Raspberry Pi, so you can expand this pretty easily as well if you want.
+* __[Kano](https://kano.me/)__: This is a kit that you can buy that let’s you assemble a (small, simple) computer yourself.  It uses a Raspberry Pi, so you can expand this pretty easily as well if you want.

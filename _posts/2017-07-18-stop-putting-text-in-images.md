@@ -39,7 +39,7 @@ Again, folks — it’s 2017.
 
 Print is not the web. The web is not print. Moreover, the web does not look (or sound) the same for everyone. We as website owners and content creators need to be as flexible and accommodating to our users as possible if we want them to read the content we are giving them.
 
-Separating text from image allows both the text and image to be responsive and accessible. For [example](https://codepen.io/thatdevgirl/pen/EXzrjR?editors=1100):
+Separating text from image allows both the text and image to be responsive and accessible. For example:
 
 {% highlight html %}
 <section class="poster">

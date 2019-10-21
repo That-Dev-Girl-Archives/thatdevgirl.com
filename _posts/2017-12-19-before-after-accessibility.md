@@ -23,10 +23,7 @@ However, because this article is almost 3 years old, I decided to conduct my own
 
 ## The test
 
-I created a simple example to use in testing.
-
-<p data-height="350" data-theme-id="0" data-slug-hash="RxaMVx" data-default-tab="html,result" data-user="thatdevgirl" data-embed-version="2" data-pen-title="CSS Counter Test" class="codepen">See the Pen <a href="https://codepen.io/thatdevgirl/pen/RxaMVx/">CSS Counter Test</a> by Joni Halabi (<a href="https://codepen.io/thatdevgirl">@thatdevgirl</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+I created a simple example to use in testing that included content using both the `::before` and `::after` selectors.
 
 I tested in as many screen readers and browsers that I have access to. I have access to two operating systems (Mac OS X and Windows 10) and three screen readers (VoiceOver, JAWS, and NVDA). I used the latest versions of all browsers tested.
 
