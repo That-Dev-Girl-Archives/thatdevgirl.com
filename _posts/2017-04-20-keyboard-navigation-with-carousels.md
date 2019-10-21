@@ -79,4 +79,4 @@ Done. I don’t care if there is a carousel or some other horrible keyboard trap
 
 ## Check out and play with the code.
 
-You can check out the actual code in my [Handle tab focus JSFiddle](https://jsfiddle.net/jonihalabi/o4ps8Lsq/).
+You can check out the actual code in my [Handle tab focus Gist](https://gist.github.com/thatdevgirl/61ad6a7ece83d4a2515f5ce6d2110e00).
