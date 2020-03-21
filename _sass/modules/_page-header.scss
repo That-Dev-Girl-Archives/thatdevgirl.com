@@ -1,76 +1,75 @@
 .page-header {
-	background: rgba(0,0,0,0.85);
-	display: block;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 999999;
+  background: rgba( 0, 0, 0, 0.85 ) ;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
 }
 
 .page-header__h1 {
-	font-size: 1rem;
-	margin-bottom: 0;
-	padding: 0.25rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 0.25rem;
 
-	@include media($medium_screen) {
-		float: left;
-		margin: 0 1rem;
-	}
+  @include media( $medium_screen ) {
+    float: left;
+    margin: 0 1rem;
+  }
 
-	a {
-		background: url('/assets/images/thatdevgirl-logo.png') no-repeat center;
-		background-size: contain;
-		display: block;
-		font-size: 0;
-		height: 38px;
-		width: 100%;
+  a {
+    background: url( '/assets/images/thatdevgirl-logo.png' ) no-repeat center;
+    background-size: contain;
+    display: block;
+    font-size: 0;
+    height: 38px;
+    width: 100%;
 
-		@include media($medium_screen) {
-			background-size: auto;
-			height: 40px;
-			width: 253px;
-		}
-	}
+    @include media( $medium_screen ) {
+      height: 40px;
+      width: 253px;
+    }
+  }
 }
 
 .page-header__nav {
-	background: $red;
-	text-align: center;
+  background: $red;
+  text-align: center;
 
-	@include media($medium_screen) {
-		background: transparent;
-		float: right;
-	}
+  @include media( $medium_screen ) {
+    background: transparent;
+    float: right;
+  }
 
-	li {
-		display: inline-block;
+  li {
+    display: inline-block;
 
-		&.icon {
-			@include media($medium_screen) {
-				border-left: 1px solid $white;
-			}
-		}
+    &.icon {
+      @include media( $medium_screen ) {
+        border-left: 1px solid $white;
+      }
+    }
 
-		@include media($medium_screen) {
-			display: block;
-			float: left;
-		}
-	}
+    @include media( $medium_screen ) {
+      display: block;
+      float: left;
+    }
+  }
 
-	a {
-		color: $white;
-		display: block;
+  a {
+    color: $white;
+    display: block;
     font-size: 1rem;
-		font-weight: 300;
-		padding: 0.5rem 0.75rem;
+    font-weight: 300;
+    padding: 0.5rem 0.75rem;
     text-decoration: none;
 
-		&:hover {
-			background: $red;
-		}
+    &:hover {
+      background: $red;
+    }
 
-		@include media($medium_screen) {
-			padding: 0.8rem 1.5rem;
-		}
-	}
+    @include media( $medium_screen ) {
+      padding: 0.8rem 1.5rem;
+    }
+  }
 }

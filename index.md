@@ -1,19 +1,19 @@
 ---
 layout: home
-title: That Dev Girl, LLC | Website and tool design and development
+title: That Dev Girl | Website and tool design and development
 ---
 
 <section class="about" id="top" aria-label="About my business">
   <div class="about-inner">
     <header class="about__header" aria-label="About my business section header">
       <img src="/assets/images/thatdevgirl-logo-sm.png" alt="That Dev Girl">
-      <p class="tagline">Better Code. <br> Better Websites.</p>
+      <p class="tagline">Code is <i>(geek)</i> love!</p>
     </header>
 
     <p class="about__p">
       My name is Joni Halabi and I am a web developer in Washington DC.
-      I create websites and applications for large and small organizations,
-      specializing in WordPress, Drupal, and Javascript applications.
+      I create websites for large and small organizations, specializing in
+      WordPress themes and plugins, as well as Javascript applications.
     </p>
 
     <p>
