@@ -1,7 +1,9 @@
-$hero-image: '/assets/images/monitor-bg.jpg';
+/* ***
+ * About block.
+ */
 
 .about {
-  background-image: url($hero-image);
+  background-image: url( '/assets/images/monitor-bg.jpg' );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +37,7 @@ $hero-image: '/assets/images/monitor-bg.jpg';
   }
 
   br {
-    @include media($medium_screen) {
+    @include media( $medium_screen ) {
       display: none;
     }
   }
@@ -57,7 +59,7 @@ $hero-image: '/assets/images/monitor-bg.jpg';
   text-align: center;
   text-shadow: 1px 1px $black;
 
-  @include media($large_screen) {
+  @include media( $large_screen ) {
     max-width: 60%;
   }
 }

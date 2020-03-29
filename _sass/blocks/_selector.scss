@@ -1,0 +1,76 @@
+/* ***
+ * Tool section selector block.
+ */
+
+.selector {
+  font-size: 0.875rem;
+  margin: 0 0 2rem;
+  padding: 1rem 0 0;
+  text-align: center;
+  width: 100%;
+
+  @include media( $medium_screen ) {
+    @include large-screen-block();
+    font-size: 1.125rem;
+    padding-top: 0;
+  }
+}
+
+.selector__ul {
+  display: inline-block;
+
+  li {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+	}
+
+	a {
+    background: $grey_light;
+    border-radius: 5px;
+    color: $black;
+    margin-right: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    text-decoration: none;
+
+    &.selected,
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+}
+
+
+/*
+ * Individual buttons.
+ */
+
+#all {
+  &.selected, &:hover, &:focus {
+    background: $black;
+  }
+}
+
+#css {
+  &.selected, &:hover, &:focus {
+    background: $green;
+  }
+}
+
+#javascript {
+  &.selected, &:hover, &:focus {
+    background: $blue;
+  }
+}
+
+#utility {
+  &.selected, &:hover, &:focus {
+    background: $orange;
+  }
+}
+
+#wordpress {
+  &.selected, &:hover, &:focus {
+    background: $red;
+  }
+}

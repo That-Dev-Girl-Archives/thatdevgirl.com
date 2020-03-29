@@ -1,4 +1,12 @@
+/* ***
+ * Category page.
+ */
+
 .category {
+
+  /*
+   * Page header.
+   */
 
   header {
     background: $blue;
@@ -39,10 +47,16 @@
     padding: 0.25rem 0.75rem;
     text-decoration: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background: $red;
     }
   }
+
+
+  /*
+   * Read more section.
+   */
 
   .more {
     background: url('/assets/images/pattern-bg.svg');

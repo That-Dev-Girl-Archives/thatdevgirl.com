@@ -1,17 +1,21 @@
-.post {
+/* ***
+ * Single post page.
+ */
 
+.post {
   .container {
     @include media($large_screen) {
       max-width: 996px;
     }
   }
 
-  /**
+
+  /*
    * Blog header block
    */
 
   header {
-    background: url("/assets/images/pattern-bg.svg");
+    background: url( '/assets/images/pattern-bg.svg' );
     display: inline-block;
     width: 100%;
 
@@ -32,12 +36,13 @@
     }
   }
 
-  /**
-   * Taxonomy block
+
+  /*
+   * Taxonomy block.
    */
 
   .taxonomy {
-    background: lighten($blue, 25%);
+    background: lighten( $blue, 25% );
     padding: 0.75rem 0;
 
     p {
@@ -54,19 +59,30 @@
       padding: 0.2rem 0.75rem;
       text-decoration: none;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background: $red;
       }
     }
   }
+
+
+  /*
+   * Article block.
+   */
 
   .article {
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
 
+
+  /*
+   * Share icons.
+   */
+
   .share {
-    background: lighten($red, 5%);
+    background: lighten( $red, 5% );
     color: $white;
     margin-top: 5rem;
     padding: 1.5rem 0;
@@ -87,7 +103,8 @@
       padding: 0.85rem 0.65rem;
       width: 3rem;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background: lighten( $blue, 10% );
         border-color: lighten( $blue, 15% );
         color: $black;
@@ -96,7 +113,7 @@
   }
 
   /*
-   * Other styles
+   * Other styles.
    */
 
   h2 {
@@ -151,15 +168,15 @@
     font-family: $monospace;
 
     .nt {
-      color: darken($red, 5%);
+      color: darken( $red, 5% );
     }
 
     .na {
-      color: darken($blue, 5%);
+      color: darken( $blue, 5% );
     }
 
     .s {
-      color: darken($orange, 5%);
+      color: darken( $orange, 5% );
     }
   }
 

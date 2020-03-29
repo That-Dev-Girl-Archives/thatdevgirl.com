@@ -1,9 +1,9 @@
-/**
- * List of categories at the top of the blog archive page.
+/* ***
+ * Blog archive page.
+ *   - List of categories at the top of the archive page.
  */
 
-.category .categories {
-
+.categories {
   background: $grey;
   padding: 2rem 0;
 
@@ -13,11 +13,11 @@
     margin-top: 1rem;
     padding: 1rem;
 
-    @include media($medium_screen) {
+    @include media( $medium_screen ) {
       flex-basis: 31%;
     }
 
-    /* Card titles */
+    // Card titles.
     .title {
       font-size: 1.2rem;
       font-weight: 500;
@@ -32,10 +32,11 @@
       }
     }
 
-    /**
-     * CTA buttons
+
+    /*
+     * Category buttons.
      */
-     
+
     .btn {
       color: $white;
       max-width: 10rem;
@@ -45,34 +46,33 @@
     &.dev .btn {
       background: $blue;
 
-      &:hover {
-        background: darken($blue, 8%);
+      &:hover, &:focus{
+        background: darken( $blue, 8% );
       }
     }
 
     &.design .btn {
       background: $green;
 
-      &:hover {
-        background: darken($green, 8%);
+      &:hover, &:focus{
+        background: darken( $green, 8% );
       }
     }
 
     &.people .btn {
       background: $red;
 
-      &:hover {
-        background: darken($red, 8%);
+      &:hover, &:focus{
+        background: darken( $red, 8% );
       }
     }
 
     &.tech .btn {
       background: $orange;
 
-      &:hover {
-        background: darken($orange, 8%);
+      &:hover, &:focus{
+        background: darken( $orange, 8% );
       }
     }
   }
-
 }

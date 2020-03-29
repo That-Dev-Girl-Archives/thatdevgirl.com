@@ -1,3 +1,7 @@
+/* ***
+ * Blog block.
+ */
+
 #blog {
   padding: 4rem 2rem;
 
@@ -15,7 +19,8 @@
     a {
       color: $blue;
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: $red;
       }
     }
@@ -29,7 +34,8 @@
   .btn:not(.all) {
     background: $blue;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background: $red;
     }
   }

@@ -1,3 +1,7 @@
+/* ***
+ * Base table styles.
+ */
+
 table {
   margin: 2rem 0;
 
@@ -7,7 +11,7 @@ table {
     text-align: left;
   }
 
-  @include media($small_screen_only) {
+  @include media( $small_screen_only ) {
     border: 1px solid $grey;
     width: 100%;
 
@@ -75,7 +79,7 @@ table {
     }
   }
 
-  @include media($medium_screen) {
+  @include media( $medium_screen ) {
     tbody tr {
       border-bottom: 1px solid $black;
 
@@ -85,7 +89,7 @@ table {
     }
 
     td, th {
-      @include paragraph(1.2rem);
+      @include paragraph( 1.2rem );
       border-left: 1px solid $black;
       padding: 0.5rem 1rem;
 

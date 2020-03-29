@@ -1,0 +1,11 @@
+/* ***
+ * Sizes
+ */
+
+$header_height: 50px;
+
+$small_screen_only:  new-breakpoint( max-width 669px 12 );
+$medium_screen:      new-breakpoint( min-width 670px 12 );
+$medium_screen_only: new-breakpoint( min-width 670px max-width 1023px, 12 );
+$medlg_screen:       new-breakpoint( min-width 760px 12 );
+$large_screen:       new-breakpoint( min-width 1024px 12 );

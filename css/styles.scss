@@ -6,30 +6,29 @@
 @import 'vendor/fontawesome/fontawesome';
 @import 'vendor/pygments-css/colorful';
 
-@import 'globals/variables';
-@import 'globals/mixins';
-
 @import 'globals/reset';
-@import 'globals/base';
+@import 'globals/mixins';
+@import 'globals/colors';
+@import 'globals/sizes';
 @import 'globals/typography';
-@import 'globals/layout';
-@import 'globals/tables';
-@import 'globals/buttons';
+@import 'globals/base';
 
-@import 'modules/page-header';
-@import 'modules/page-footer';
+@import 'layout/main';
+@import 'layout/header';
+@import 'layout/footer';
 
-@import 'modules/block-about';
-@import 'modules/block-blog';
-@import 'modules/block-code';
-@import 'modules/block-talks';
-@import 'modules/block-tools';
-@import 'modules/block-tools-selector';
-@import 'modules/block-websites';
+@import 'components/button';
+@import 'components/table';
 
-@import 'modules/category';
-@import 'modules/blog';
-@import 'modules/post';
+@import 'blocks/about';
+@import 'blocks/blog';
+@import 'blocks/code';
+@import 'blocks/selector';
+@import 'blocks/sites';
+@import 'blocks/talks';
+@import 'blocks/tools';
 
-@import 'modules/page-404';
-@import 'modules/documentation-pages';
+@import 'pages/blog-archive';
+@import 'pages/single-category';
+@import 'pages/single-post';
+@import 'pages/404';
