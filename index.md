@@ -17,7 +17,7 @@ title: That Dev Girl | Website and tool design and development
     </p>
 
     <p>
-      <a href="mailto:her@thatdevgirl.com" class="btn primary">E-mail me for more info</a>
+      <a href="mailto:her@thatdevgirl.com" class="btn primary">Say hello!</a>
     </p>
   </div>
 </section>
