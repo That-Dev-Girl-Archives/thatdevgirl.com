@@ -1,13 +1,26 @@
-$(document).ready(function() {
+/* ***
+ * Utility function for scrolling effect on the front page.
+ */
 
-    $('a.scroll').click(function(event) {
-        event.preventDefault();
-        var location = $(this).attr('href');
-        var offset = ($(window).width() > 640) ? 50 : 86;
+const navigationScroll = {
+  go: function() {
+    $('a.scroll').click( ( e ) => {
+      this.scroll( e );
+    } );
+  },
 
-        $('html, body').animate({
-            scrollTop: $(location).offset().top - offset
-        }, 1000);
-    });
+  scroll: function( e ) {
+    e.preventDefault();
 
-});
+    const location = $( e.target ).attr( 'href' );
+    const offset = ( $( window ).width() > 640 ) ? 50 : 86;
+
+    $( 'html, body' ).animate( {
+      scrollTop: $( location ).offset().top - offset
+    }, 1000 );
+  }
+};
+
+$( document ).ready( () => {
+  navigationScroll.go();
+} );

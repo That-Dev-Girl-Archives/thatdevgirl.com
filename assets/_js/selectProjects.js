@@ -1,6 +1,10 @@
+/* ***
+ * Object for project selector in the tools section.
+ */
+
 const selectProjects = {
   go: function() {
-    $( '#all, #css, #javascript, #utility, #wordpress' ).click( ( e ) => {
+    $( '#all, #css, #javascript, #utility' ).click( ( e ) => {
       this.show( e );
     } );
   },

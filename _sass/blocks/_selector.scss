@@ -59,18 +59,12 @@
 
 #javascript {
   &.selected, &:hover, &:focus {
-    background: $blue;
+    background: $red;
   }
 }
 
 #utility {
   &.selected, &:hover, &:focus {
-    background: $orange;
-  }
-}
-
-#wordpress {
-  &.selected, &:hover, &:focus {
-    background: $red;
+    background: $blue;
   }
 }
