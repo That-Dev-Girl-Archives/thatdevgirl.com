@@ -4,6 +4,7 @@ title: "The Case of the Disappearing Gutenberg"
 date: "2020-06-20"
 categories:
   - development
+  - tech_tips
 ---
 
 Once upon a time, there was a WordPress post editor that discovered it had turned into a simple HTML editor....
