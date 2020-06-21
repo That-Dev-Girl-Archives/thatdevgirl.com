@@ -7,25 +7,57 @@
   background: lighten( $blue, 20% );
   padding: 4rem 0;
 
+
+  // Page heading.
   h1 {
-    font-size: 2.75rem;
-    font-weight: bold;
+    font-family: $monospace;
     margin-bottom: 2rem;
   }
 
-  blockquote {
-    background: rgba( $white, 0.6 );
+
+  // Page text.
+  p.text {
+    font-size: 1.25rem;
     margin: 4rem 0;
-    padding: 2rem;
   }
 
-  .btn {
-    background: $red;
-    color: $white;
-    margin: 0 2rem 2rem 0;
 
-    &:hover {
-      background: lighten( $red, 10% );
+  // Blockquote.
+  blockquote {
+    background: rgba( $white, 0.6 );
+    border-radius: 0.5rem;
+    margin: 4rem 0 2rem;
+    padding: 3rem 4rem;
+
+    p {
+      position: relative;
+    }
+
+    p:before {
+      color: $red;
+      display: inline;
+      font-size: 12rem;
+      left: -8rem;
+      position: absolute;
+      top: -8rem;
+    }
+
+    p:after {
+      color: $red;
+      padding-left: 0;
+    }
+
+    cite {
+      margin-left: 0;
+    }
+  }
+
+
+  // Button overrides.
+  .btn {
+    &:hover,
+    &:focus {
+      background-color: $orange;
     }
   }
 
