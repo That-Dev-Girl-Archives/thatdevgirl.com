@@ -6,13 +6,24 @@
 
   padding: 1.5rem;
 
+  // First article.
   &:first-of-type {
-    grid-column-start: 1;
-    grid-column-end: 4;
     position: relative;
 
+    @media screen and ( min-width: $medium ) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    @media screen and ( min-width: $large ) {
+      &.three-across {
+        grid-column-end: 4;
+      }
+    }
+
+    // "Lastest Post" tag.
     &:before {
-      background-color: $red;
+      background-color: $blue;
       border-radius: 0.25rem;
       color: $white;
       content: 'Latest Post';
@@ -20,7 +31,7 @@
       left: -1rem;
       padding: 0.5rem 1rem;
       position: absolute;
-      top: -1.5rem;
+      top: -2rem;
     }
   }
 
