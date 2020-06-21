@@ -6,6 +6,24 @@
 
   padding: 1.5rem;
 
+  &:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    position: relative;
+
+    &:before {
+      background-color: $red;
+      border-radius: 0.25rem;
+      color: $white;
+      content: 'Latest Post';
+      font-size: 0.9rem;
+      left: -1rem;
+      padding: 0.5rem 1rem;
+      position: absolute;
+      top: -1.5rem;
+    }
+  }
+
   // Article title.
   .title {
     font-size: 1.4rem;
