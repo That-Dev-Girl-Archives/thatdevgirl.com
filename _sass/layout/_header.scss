@@ -1,22 +1,30 @@
-/* ***
+/**
  * Page header.
  */
 
 .page-header {
+
   background: rgba( 0, 0, 0, 0.85 ) ;
   display: block;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999999;
+
 }
 
+
+/*
+ * Header logo.
+ */
+
 .page-header__h1 {
+
   font-size: 1rem;
   margin-bottom: 0;
   padding: 0.25rem;
 
-  @include media( $medium_screen ) {
+  @media screen and ( min-width: $medium ) {
     float: left;
     margin: 0 1rem;
   }
@@ -29,18 +37,25 @@
     height: 38px;
     width: 100%;
 
-    @include media( $medium_screen ) {
+    @media screen and ( min-width: $medium ) {
       height: 40px;
       width: 253px;
     }
   }
+
 }
 
+
+/*
+ * Navigation bar.
+ */
+
 .page-header__nav {
+
   background: $red;
   text-align: center;
 
-  @include media( $medium_screen ) {
+  @media screen and ( min-width: $medium ) {
     background: transparent;
     float: right;
   }
@@ -49,12 +64,12 @@
     display: inline-block;
 
     &.icon {
-      @include media( $medium_screen ) {
+      @media screen and ( min-width: $medium ) {
         border-left: 1px solid $white;
       }
     }
 
-    @include media( $medium_screen ) {
+    @media screen and ( min-width: $medium ) {
       display: block;
       float: left;
     }
@@ -72,8 +87,9 @@
       background: $red;
     }
 
-    @include media( $medium_screen ) {
+    @media screen and ( min-width: $medium ) {
       padding: 0.8rem 1.5rem;
     }
   }
+
 }

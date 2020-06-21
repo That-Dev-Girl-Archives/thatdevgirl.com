@@ -1,8 +1,6 @@
 ---
 ---
 
-@import 'vendor/bourbon/bourbon';
-@import 'vendor/neat/neat';
 @import 'vendor/fontawesome/fontawesome';
 @import 'vendor/pygments-css/colorful';
 
@@ -16,20 +14,21 @@
 @import 'layout/main';
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/deck';
 
+@import 'components/article-card';
 @import 'components/button';
+@import 'components/selector';
 @import 'components/table';
 
 @import 'blocks/about';
 @import 'blocks/blog';
 @import 'blocks/code';
 @import 'blocks/plugins';
-@import 'blocks/selector';
 @import 'blocks/sites';
 @import 'blocks/talks';
 @import 'blocks/tools';
 
-@import 'pages/blog-archive';
-@import 'pages/single-category';
-@import 'pages/single-post';
+@import 'pages/archive';
+@import 'pages/post';
 @import 'pages/404';

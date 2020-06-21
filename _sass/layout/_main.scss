@@ -1,11 +1,11 @@
-/* ***
- * Main layout styles.
+/**
+ * Main block layout.
  */
 
 .site-wrapper {
   margin-top: 86px;
 
-  @include media( $medium_screen ) {
+  @media screen and ( min-width: $medium ) {
     margin-top: 50px;
   }
 }
@@ -13,42 +13,8 @@
 .container {
   margin: 0 2rem;
 
-  @include media( $large_screen ) {
+  @media screen and ( min-width: $large ) {
     margin: 0 auto;
     max-width: 1024px;
-  }
-}
-
-.flex-container {
-  clear: both;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.flex-card {
-  @include box();
-  background: $white;
-  color: $black;
-  flex-basis: 100%;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-
-  @include media( $medium_screen ) {
-    flex-basis: 47%;
-  }
-
-  h2 a {
-    color: $black;
-
-    &:hover {
-      background: $red_light;
-    }
-  }
-}
-
-.hidden-sm {
-  @include media( $small_screen_only ) {
-    display: none;
   }
 }

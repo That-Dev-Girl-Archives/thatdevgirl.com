@@ -1,93 +1,44 @@
 {% include site-header.html %}
 {% include page-header-inner.html %}
 
-<div class="category">
-  <header aria-label="Page header">
-    <div class="container">
-      <h1>All blog posts.</h1>
-    </div>
-  </header>
+<div class="archive-header">
+  <div class="container">
+    <h1>All blog posts.</h1>
+  </div>
+</div>
 
-  {% unless page.content == '' %}
-    <div class="container">
-      <p>{{ page.content }}</p>
-    </div>
-  {% endunless %}
+<div class="archive">
+  <div class="container">
 
-  <section class="categories" aria-label="List of blog categories">
-    <div class="container flex-container">
-      <div class="flex-card dev">
-        <p class="title"><a href="/blog/accessibility/">Accessibility</a></p>
-        <p>Posts about developing accessible websites.</p>
-        <p><a href="/blog/accessibility/" class="btn" aria-label="See all posts on accessibility">See posts</a></p>
-      </div>
+    {% unless page.content == '' %}
+      {{ page.content }}
+    {% endunless %}
 
-      <div class="flex-card design">
-        <p class="title"><a href="/blog/css/">CSS</a></p>
-        <p>Tips about CSS development.</p>
-        <p><a href="/blog/css/" class="btn" aria-label="See all posts on CSS">See posts</a></p>
-      </div>
+    <ul class="deck three-across">
+      {% for post in site.posts %}
+        <li class="card article">
+          <p class="date">
+            {{ post.date | date_to_long_string }}
+          </p>
 
-      <div class="flex-card dev">
-        <p class="title"><a href="/blog/development/">Development</a></p>
-        <p>All posts about development in general.</p>
-        <p><a href="/blog/development/" class="btn" aria-label="See all posts on development">See posts</a></p>
-      </div>
+          <p class="title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </p>
 
-      <div class="flex-card dev">
-        <p class="title"><a href="/blog/git/">Git</a></p>
-        <p>Source control tips and tricks specifically about Git.</p>
-        <p><a href="/blog/git/" class="btn" aria-label="See all posts on Git">See posts</a></p>
-      </div>
+          <p class="excerpt">
+            {{ post.content | strip_html | truncatewords:30 }}
+          </p>
 
-      <div class="flex-card people">
-        <p class="title"><a href="/blog/hiring/">Hiring</a></p>
-        <p>Things I have learned while hiring people.</p>
-        <p><a href="/blog/hiring/" class="btn" aria-label="See all posts on hiring">See posts</a></p>
-      </div>
-
-      <div class="flex-card dev">
-        <p class="title"><a href="/blog/javascript/">Javascript</a></p>
-        <p>Tips about Javascript development.</p>
-        <p><a href="/blog/javascript/" class="btn" aria-label="See all posts on Javascript">See posts</a></p>
-      </div>
-
-      <div class="flex-card people">
-        <p class="title"><a href="/blog/teaching/">Teaching</a></p>
-        <p>Posts specifically about things I've learned while teaching.</p>
-        <p><a href="/blog/teaching/" class="btn" aria-label="See all posts on teaching">See posts</a></p>
-      </div>
-
-      <div class="flex-card tech">
-        <p class="title"><a href="/blog/tech_tips/">Tech Tips</a></p>
-        <p>Random technology tips.</p>
-        <p><a href="/blog/tech_tips/" class="btn" aria-label="See all posts on tech tips">See posts</a></p>
-      </div>
-
-      <div class="flex-card design">
-        <p class="title"><a href="/blog/user_experience/">User Experience</a></p>
-        <p>Posts about user experience.</p>
-        <p><a href="/blog/user_experience/" class="btn" aria-label="See all posts on user experience">See posts</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="container list" aria-label="List of all blog posts">
-    <ul>
-    {% for post in site.posts %}
-      <li>
-        <p>{{ post.date | date_to_long_string }}</p>
-        <p class="title"><a href="{{ post.url }}">{{ post.title }}</a></p>
-
-        <p>
-          {% for category in post.categories %}
-          <a href="/blog/{{category | replace: ' ', '_' }}" class="cat">{{ category | replace: "_", " " }}</a>
-          {% endfor %}
-        </p>
-      </li>
-    {% endfor %}
+          <p class="categories">
+            {% for category in post.categories %}
+            <a href="/blog/{{category | replace: ' ', '_' }}" class="cat">{{ category | replace: "_", " " }}</a>
+            {% endfor %}
+          </p>
+        </li>
+      {% endfor %}
     </ul>
-  </section>
+
+  </div>
 </div>
 
 {% include page-footer.html %}

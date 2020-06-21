@@ -1,48 +1,19 @@
-/* ***
+/**
  * Sites block.
+ *
+ * Displayed on the front page.
  */
 
 #sites {
+
   background: url( '/assets/images/pattern-bg.svg' );
   padding: 4rem 2rem;
 
-  h3 {
-    margin: 2rem 1.5rem 1rem;
-
-    a:hover,
-    a:focus {
-      color: $blue;
-    }
-  }
-
-  p {
-    margin: 0.5rem 1.5rem;
-  }
-
   .tech-stack {
-    color: $grey;
-    font-weight: 400;
-    margin: 0 1.5rem 1.5rem;
-  }
-}
-
-.websites__a--screenshot {
-  display: block;
-  height: 10rem;
-  overflow: hidden;
-
-  @include media( $medium_screen ) {
-    height: 13rem;
+    color: lighten( $grey, 10% );
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
   }
 
-  img {
-    border-radius: 5px 5px 0 0;
-    margin: 0;
-    width: 100%;
-	}
-
-  &:hover,
-  &:focus {
-    background: transparent;
-  }
 }

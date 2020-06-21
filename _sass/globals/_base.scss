@@ -1,5 +1,5 @@
-/* ***
- * Basic global styles.
+/**
+ * Base global styles.
  */
 
 a {
@@ -9,10 +9,6 @@ a {
   &:hover {
     text-decoration: none;
   }
-}
-
-select {
-  cursor: pointer;
 }
 
 hr {

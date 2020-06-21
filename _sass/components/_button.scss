@@ -1,22 +1,23 @@
-/* ***
+/**
  * Base button styles.
  */
 
 .btn {
+
   background: $white;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   color: $black;
   display: block;
   font-family: $sans;
   margin: 2rem auto 1rem;
-  max-width: 14rem;
-  padding: .75rem 2rem;
+  max-width: 12rem;
+  padding: 0.65rem 2rem;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
   width: auto;
 
-  @include media($medium_screen) {
+  @media screen and ( min-width: $medium ) {
     margin: 2em 0 1em;
   }
 
@@ -26,10 +27,12 @@
     top: -2px;
   }
 
-  /*
-   * Primary buttons
-   */
+  // Font awesome icons in buttons.
+  .fa {
+    margin-right: 0.25rem;
+  }
 
+  // Primary buttons.
   &.primary {
     background: $red;
     color: $white;
@@ -39,10 +42,7 @@
     }
   }
 
-  /*
-   * Documentation CTA buttons
-   */
-
+  // Documentation CTA buttons.
   &.blue {
     background: darken($blue, 10%);
     color: $white;
@@ -52,16 +52,15 @@
     }
   }
 
-  /*
-   * Large buttons
-   */
-
+  // Large buttons.
   &.large {
     font-size: 1.25rem;
     max-width: 18rem;
   }
 
-  .fa {
-    margin-right: 0.25rem;
+  // Wide buttons.
+  &.wide {
+    max-width: 18rem;
   }
+
 }

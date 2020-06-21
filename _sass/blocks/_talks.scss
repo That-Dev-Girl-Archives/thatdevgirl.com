@@ -1,19 +1,16 @@
-/* ***
+/**
  * Talks block.
+ *
+ * Displayed on the front page.
  */
 
 #talks {
+
   padding: 4rem 2rem;
 
-  h3 {
-    margin: 2rem 1.5rem 1rem;
-  }
-
-  p {
-    margin: 0.5rem 1.5rem;
-  }
-
-  .flex-card {
+  // Card overrides.
+  .card {
     background-color: $grey_light;
   }
+
 }

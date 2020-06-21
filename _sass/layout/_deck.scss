@@ -1,0 +1,57 @@
+/**
+ * Card deck styles.
+ */
+
+.deck {
+
+  // Deck layout options.
+  @media screen and ( min-width: $medium ) {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and ( min-width: $large ) {
+    &.three-across {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  // Individual cards inside a deck.
+  .card {
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba( $black, 0.25 );
+    margin-bottom: 2rem;
+    padding: 0;
+
+    // Card top image.
+    .top-image {
+      background-size: cover;
+      border-bottom: 1px solid $grey_light;
+      border-radius: 0.25rem 0.25rem 0 0;
+      height: 150px;
+      width: 100%;
+    }
+
+    // Card heading overrides.
+    h3 {
+      display: block;
+      font-size: 1.65rem;
+      line-height: 1.25;
+      margin: 2rem 2rem 1rem;
+
+      a:hover,
+      a:focus {
+        color: $blue;
+      }
+    }
+
+    // Card paragraph overrides.
+    p {
+      display: block;
+      margin: 0.5rem 2rem;
+    }
+  }
+
+}

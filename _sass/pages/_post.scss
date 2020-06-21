@@ -1,19 +1,16 @@
-/* ***
+/**
  * Single post page.
  */
 
 .post {
   .container {
-    @include media($large_screen) {
+    @media screen and ( min-width: $large ) {
       max-width: 996px;
     }
   }
 
 
-  /*
-   * Blog header block
-   */
-
+  // Blog header block.
   header {
     background: url( '/assets/images/pattern-bg.svg' );
     display: inline-block;
@@ -37,10 +34,7 @@
   }
 
 
-  /*
-   * Taxonomy block.
-   */
-
+  // Taxonomy block.
   .taxonomy {
     background: lighten( $blue, 25% );
     padding: 0.75rem 0;
@@ -67,20 +61,14 @@
   }
 
 
-  /*
-   * Article block.
-   */
-
+  // Article block.
   .article {
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
 
 
-  /*
-   * Share icons.
-   */
-
+  // Share icons.
   .share {
     background: lighten( $red, 5% );
     color: $white;
@@ -98,9 +86,10 @@
       color: $white;
       display: inline-block;
       font-size: 1.25rem;
-      height: 3rem;
+      height: 2rem;
       margin: 0 0.5rem;
-      padding: 0.85rem 0.65rem;
+      padding: 0.45rem 0;
+      text-align: center;
       width: 3rem;
 
       &:hover,
@@ -112,12 +101,9 @@
     }
   }
 
-  /*
-   * Other styles.
-   */
-
+  // Other styles.
   h2 {
-    margin: 3rem 0 1.5rem;
+    margin: 4rem 0 1rem;
     text-align: left;
   }
 
@@ -126,9 +112,9 @@
   }
 
   blockquote {
-    border-left: 5px solid $red;
+    border-left: 0.5rem solid $orange;
     margin: 2rem 0;
-    padding-left: 1rem;
+    padding: 1rem 0 0.5rem 2rem;
 
     p {
       line-height: 1.5;
@@ -168,8 +154,9 @@
   }
 
   code {
-    @include paragraph;
     font-family: $monospace;
+    font-size: 1rem;
+    font-weight: 300;
 
     .nt {
       color: darken( $red, 5% );

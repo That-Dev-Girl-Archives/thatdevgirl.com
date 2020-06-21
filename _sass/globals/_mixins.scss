@@ -1,16 +1,10 @@
-/* ***
+/**
  * Mixin definitions.
  */
 
-@mixin large-screen-block() {
-  @include span-columns( 8 of 12 );
-  @include shift( 2 of 12 );
-}
-
-@mixin paragraph($fontsize: 1rem ) {
+@mixin paragraph( $fontsize: 1rem ) {
   font-size: $fontsize;
   font-weight: 300;
-  line-height: 1.5;
 }
 
 @mixin box() {

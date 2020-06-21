@@ -1,26 +1,28 @@
-/* ***
+/**
  * Code block.
+ *
+ * Displayed on the front page.
  */
 
 #code {
+
   background: lighten( $blue, 25% );
   display: block;
   font-family: $monospace;
   font-size: 1rem;
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 0;
   width: 100%;
 
-  @include media( $medium_screen ) {
+  @media screen and ( min-width: $medium ) {
     font-size: 1.25rem;
-    padding: 3em 5em;
   }
 
   p {
     font-size: 1rem;
     margin: 0.5rem 0;
 
-    @include media( $medium_screen ) {
+    @media screen and ( min-width: $medium ) {
       font-size: 1.25rem;
     }
   }
@@ -44,21 +46,30 @@
       background: $orange;
     }
   }
+
 }
 
-.code__div {
-  margin: 0 2rem;
 
-  @include media( $medium_screen ) {
-    @include large-screen-block();
+// Inner container.
+.code__div {
+
+  margin: 0 auto;
+
+  @media screen and ( min-width: $medium ) {
+    padding: 4rem 0 2rem;
+    width: 75%;
 	}
 
   .btn {
     max-width: 16rem;
   }
+
 }
 
+
+// The actual code markup.
 .code__dl {
+
   margin: 0 2rem;
 
   dt {
@@ -68,7 +79,7 @@
     line-height: 1.5;
     width: 10rem;
 
-    @include media( $medium_screen ) {
+    @media screen and ( min-width: $medium ) {
       float: left;
     }
   }
@@ -78,9 +89,10 @@
     line-height: 1.5;
     margin-bottom: 1rem;
 
-    @include media( $medium_screen ) {
+    @media screen and ( min-width: $medium ) {
       margin-bottom: 0;
       overflow: hidden;
     }
   }
+
 }

@@ -1,22 +1,26 @@
-/* ***
- * Tool section selector block.
+/**
+ * Tool selector component.
+ *
+ * Displayed on the front page, inside the tools block.
  */
 
 .selector {
+
   font-size: 0.875rem;
   margin: 0 0 2rem;
   padding: 1rem 0 0;
   text-align: center;
   width: 100%;
 
-  @include media( $medium_screen ) {
-    @include large-screen-block();
+  @media screen and ( min-width: $medium ) {
     font-size: 1.125rem;
     padding-top: 0;
   }
+
 }
 
 .selector__ul {
+
   display: inline-block;
 
   li {
@@ -38,6 +42,7 @@
       color: $white;
     }
   }
+
 }
 
 

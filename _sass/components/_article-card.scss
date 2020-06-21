@@ -1,0 +1,59 @@
+/**
+ * Article card styles.
+ */
+
+.article {
+
+  padding: 1.5rem;
+
+  // Article title.
+  .title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+
+    a {
+      color: $blue;
+
+      &:hover,
+      &:focus {
+        color: $red;
+      }
+    }
+  }
+
+  // Date section styles.
+  p.date {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    margin-top: 1.5rem;
+  }
+
+  // Category listing styles.
+  p.categories {
+    border-top: 1px solid $grey_light;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+    // Category links.
+    a {
+      background-color: $orange;
+      border-radius: 0.25rem;
+      color: $white;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      padding: 0.25rem 1rem;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        background-color: $blue;
+      }
+    }
+  }
+
+}

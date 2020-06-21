@@ -1,8 +1,9 @@
-/* ***
+/**
  * Base table styles.
  */
 
 table {
+
   margin: 2rem 0;
 
   thead {
@@ -11,7 +12,7 @@ table {
     text-align: left;
   }
 
-  @include media( $small_screen_only ) {
+  @media screen and ( max-width: $small ) {
     border: 1px solid $grey;
     width: 100%;
 
@@ -79,7 +80,7 @@ table {
     }
   }
 
-  @include media( $medium_screen ) {
+  @media screen and ( min-width: $medium ) {
     tbody tr {
       border-bottom: 1px solid $black;
 
@@ -89,7 +90,8 @@ table {
     }
 
     td, th {
-      @include paragraph( 1.2rem );
+      font-size: 1.2rem;
+      font-weight: 300;
       border-left: 1px solid $black;
       padding: 0.5rem 1rem;
 
@@ -102,4 +104,5 @@ table {
       border-color: $white;
     }
   }
+
 }
