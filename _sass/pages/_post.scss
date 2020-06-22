@@ -94,9 +94,9 @@
 
       &:hover,
       &:focus {
-        background: lighten( $blue, 10% );
-        border-color: lighten( $blue, 15% );
-        color: $black;
+        background: $grey_light;
+        border-color: darken( $grey_light, 5% );
+        color: $red;
       }
     }
   }

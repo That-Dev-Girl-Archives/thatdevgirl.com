@@ -11,8 +11,6 @@
 }
 
 .container {
-  margin: 0 2rem;
-
   @media screen and ( min-width: $large ) {
     margin: 0 auto;
     max-width: 1024px;

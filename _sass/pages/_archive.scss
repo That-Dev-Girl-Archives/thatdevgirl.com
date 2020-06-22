@@ -8,8 +8,19 @@
 // Page header.
 .archive-header {
   background-color: $blue;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+
+  @media screen and ( min-width: $medium ) {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
+  @media screen and ( max-width: $medium ) {
+    .container {
+      margin: 0 2rem;
+    }
+  }
 
   h1 {
     font-family: $monospace;
@@ -23,6 +34,12 @@
 .archive {
   background: url('/assets/images/pattern-bg.svg');
   padding: 4rem 0 0;
+
+  @media screen and ( max-width: $medium ) {
+    .container {
+      margin: 0 2rem;
+    }
+  }
 
   // Read more section.
   .more {

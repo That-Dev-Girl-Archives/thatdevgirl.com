@@ -13,10 +13,8 @@
     @media screen and ( min-width: $medium ) {
       grid-column-start: 1;
       grid-column-end: 3;
-    }
 
-    @media screen and ( min-width: $large ) {
-      &.three-across {
+      .three-across & {
         grid-column-end: 4;
       }
     }

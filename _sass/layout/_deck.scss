@@ -23,7 +23,7 @@
     border-radius: 5px;
     box-shadow: 0 1px 2px 0 rgba( $black, 0.25 );
     margin-bottom: 2rem;
-    padding: 0;
+    padding: 0 0 2rem;
 
     // Card top image.
     .top-image {
@@ -36,7 +36,7 @@
 
     // Card heading overrides.
     h3 {
-      display: block;
+      display: inline-block;
       font-size: 1.65rem;
       line-height: 1.25;
       margin: 2rem 2rem 1rem;
