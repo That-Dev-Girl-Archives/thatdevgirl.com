@@ -14,29 +14,21 @@
       {{ page.content }}
     {% endunless %}
 
-    <ul class="deck three-across">
+    <div class="deck articles">
       {% for post in site.posts %}
-        <li class="card article">
+        <a class="card article" href="{{ post.url }}">
+          <p class="title">{{ post.title }}</p>
+
           <p class="date">
             {{ post.date | date_to_long_string }}
-          </p>
-
-          <p class="title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
           </p>
 
           <p class="excerpt">
             {{ post.content | strip_html | truncatewords:30 }}
           </p>
-
-          <p class="categories">
-            {% for category in post.categories %}
-            <a href="/blog/{{category | replace: ' ', '_' }}" class="cat">{{ category | replace: "_", " " }}</a>
-            {% endfor %}
-          </p>
-        </li>
+        </a>
       {% endfor %}
-    </ul>
+    </div>
 
   </div>
 </div>

@@ -2,85 +2,57 @@
  * Article card styles.
  */
 
-.article {
+.deck a.article {
 
-  padding: 1.5rem;
+  color: $black;
+  margin-bottom: 0;
+  padding: 2rem;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    background-color: lighten( $red, 20% );
+  }
 
   // First article.
   &:first-of-type {
+    background-color: $blue;
+    color: $white;
     position: relative;
 
     @media screen and ( min-width: $medium ) {
       grid-column-start: 1;
       grid-column-end: 3;
-
-      .three-across & {
-        grid-column-end: 4;
-      }
     }
 
-    // "Lastest Post" tag.
-    &:before {
-      background-color: $blue;
-      border-radius: 0.25rem;
-      color: $white;
-      content: 'Latest Post';
-      font-size: 0.9rem;
-      left: -1rem;
-      padding: 0.5rem 1rem;
-      position: absolute;
-      top: -2rem;
+    .title {
+      font-size: 2.5rem;
     }
+
+    &:focus,
+    &:hover {
+      background-color: darken( $orange, 10% );
+    }
+  }
+
+  p {
+    margin: 0;
   }
 
   // Article title.
   .title {
-    font-size: 1.4rem;
+    font-family: $monospace;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.25;
     margin-bottom: 1.25rem;
-
-    a {
-      color: $blue;
-
-      &:hover,
-      &:focus {
-        color: $red;
-      }
-    }
   }
 
   // Date section styles.
   p.date {
-    display: inline-block;
+    font-weight: bold;
     font-size: 0.8rem;
-    margin-bottom: 0.25rem;
-    margin-top: 1.5rem;
-  }
-
-  // Category listing styles.
-  p.categories {
-    border-top: 1px solid $grey_light;
-    font-size: 0.8rem;
-    margin-top: 3rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-
-    // Category links.
-    a {
-      background-color: $orange;
-      border-radius: 0.25rem;
-      color: $white;
-      display: inline-block;
-      margin-bottom: 0.5rem;
-      padding: 0.25rem 1rem;
-      text-decoration: none;
-
-      &:hover,
-      &:focus {
-        background-color: $blue;
-      }
-    }
+    margin-bottom: 0.5rem;
   }
 
 }

@@ -12,8 +12,9 @@
   <div class="taxonomy">
     <div class="container">
       <p>
+        <span>Topics:</span>
         {% for category in page.categories %}
-        <a href="/blog/{{category | replace: ' ', '_' }}">{{ category | replace: "_", " " }}</a>
+          <a href="/blog/{{category | replace: ' ', '_' }}">{{ category | replace: "_", " " }}</a>
         {% endfor %}
       </p>
     </div>
