@@ -17,6 +17,8 @@
 
   // Layout.
   & > .container {
+    margin-bottom: 4rem;
+
     @media screen and ( min-width: $medium ) {
       display: grid;
       grid-template-columns: 2fr 1fr;
@@ -67,7 +69,6 @@
   // Read more section.
   .more {
     background-color: $blue;
-    margin-top: 4rem;
     padding-bottom: 3rem;
     padding-top: 3rem;
 
