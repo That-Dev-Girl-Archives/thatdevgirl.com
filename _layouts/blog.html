@@ -1,9 +1,15 @@
 {% include site-header.html %}
 {% include page-header-inner.html %}
 
-<div class="archive-header">
-  <div class="container">
-    <h1>All blog posts.</h1>
+<div class="about">
+  <div class="about-inner">
+    <div class="logo">
+      <img src="/assets/images/thatdevgirl-logo-sm.png" alt="">
+    </div>
+
+    <h1 class="about__h1">
+      All Articles
+    </h1>
   </div>
 </div>
 
@@ -14,10 +20,12 @@
       {{ page.content }}
     {% endunless %}
 
-    <div class="deck articles">
+    <div class="list">
       {% for post in site.posts %}
-        <a class="card article" href="{{ post.url }}">
-          <p class="title">{{ post.title }}</p>
+        <div class="article">
+          <p class="title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </p>
 
           <p class="date">
             {{ post.date | date_to_long_string }}
@@ -26,9 +34,11 @@
           <p class="excerpt">
             {{ post.content | strip_html | truncatewords:30 }}
           </p>
-        </a>
+        </div>
       {% endfor %}
     </div>
+
+    {% include block-categories.html %}
 
   </div>
 </div>

@@ -1,0 +1,99 @@
+/**
+ * Article styles.
+ *
+ * Used for both decks and lists.
+ */
+
+.deck a.article,
+.list .article {
+
+  color: $black;
+  margin-bottom: 0;
+  padding: 2rem;
+  text-decoration: none;
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  // Article title.
+  .title {
+    font-family: $monospace;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 1.25rem;
+  }
+
+  // Date section styles.
+  p.date {
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+}
+
+
+/**
+ * Article styles for decks only.
+ */
+
+.deck a.article {
+
+  &:focus,
+  &:hover {
+    background-color: darken( $orange, 10% );
+    color: $white;
+  }
+
+  // First article in a card deck.
+  &:first-of-type {
+    background-color: $blue;
+    color: $white;
+    position: relative;
+
+    @media screen and ( min-width: $medium ) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .title {
+      font-size: 2.5rem;
+    }
+
+    &:focus,
+    &:hover {
+      background-color: darken( $orange, 10% );
+    }
+  }
+
+}
+
+
+/**
+ * Article styles for lists only.
+ */
+
+.list .article {
+  &:first-of-type {
+    .title {
+      font-size: 2.074rem;
+    }
+  }
+
+  .title {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

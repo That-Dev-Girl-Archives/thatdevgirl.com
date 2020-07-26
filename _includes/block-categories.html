@@ -1,0 +1,17 @@
+{% assign categories = site.categories | sort %}
+
+<div class="categories">
+
+  <p>Topics</p>
+
+  <ul>
+    {% for category in categories %}
+      <li>
+        <a href="/blog/{{ category[0] }}">
+          {{ category[0] | replace: "_", " " }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

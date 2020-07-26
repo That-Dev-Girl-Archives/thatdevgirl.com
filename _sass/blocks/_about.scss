@@ -1,7 +1,7 @@
 /**
  * About block.
  *
- * Displayed on the front page.
+ * Displayed on the front page, but also used for the titles on archive pages.
  */
 
 .about {
@@ -31,7 +31,8 @@
   }
 
   // Header with logo.
-  header {
+  header,
+  .logo {
     text-align: center;
 
     img {
@@ -67,6 +68,15 @@
     @media screen and ( min-width: $large ) {
       max-width: 60%;
     }
+  }
+
+  .about__h1 {
+    color: $white;
+    font-family: $monospace;
+    font-size: 2.488rem;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 1px 1px $black;
   }
 
 }
