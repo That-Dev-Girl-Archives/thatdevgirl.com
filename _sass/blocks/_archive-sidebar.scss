@@ -1,0 +1,72 @@
+/**
+ * Archive page sidebar styles
+ *
+ */
+
+.archive-sidebar {
+  padding: 2rem 0;
+
+  @media screen and ( min-width: $medium ) {
+    padding-left: 4rem;
+  }
+
+  // Paragraphs, usually used as pseudo-headings for the lists.
+  p {
+    font-weight: bold;
+    padding-left: 0.25rem;
+    text-transform: uppercase;
+  }
+
+  // Lists.
+  ul {
+    margin-bottom: 2rem;
+  }
+
+  li {
+    border-bottom: 1px solid darken( $grey_light, 20% );
+    padding: 0.1rem 0.25rem;
+
+    &:first-of-type {
+      border-top: 1px solid darken( $grey_light, 20% );
+    }
+  }
+
+  // All links.
+  a {
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: darken( $red, 10% );
+      text-decoration: underline;
+    }
+
+    &::after {
+      content: '▸';
+      margin-left: 0.1rem;
+    }
+
+    // Common styles for all follow links.
+    &.follow::before {
+      content: '';
+      display: inline-block;
+      height: 1.5rem;
+      margin-right: 0.25rem;
+      position: relative;
+      top: 0.35rem;
+      width: 1.5rem;
+    }
+
+    // RSS feed link.
+    &.rss::before {
+      background: url( '/assets/icons/rss.svg' );
+    }
+
+    // Twitter link.
+    &.twitter::before {
+      background: url( '/assets/icons/twitter.svg' );
+    }
+  }
+
+}

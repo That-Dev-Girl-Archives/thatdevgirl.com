@@ -1,4 +1,6 @@
 title: That Dev Girl
+description: A technical blog about website development, plugin creations, and other tech tips.
+author: Joni Halabi
 production_url: https://thatdevgirl.com
 twitter_username: jonihalabi
 
@@ -12,3 +14,6 @@ sass:
 include: ['_pages']
 permalink: /blog/:title
 highlighter: rouge
+
+plugins:
+  - 'jekyll-feed'
