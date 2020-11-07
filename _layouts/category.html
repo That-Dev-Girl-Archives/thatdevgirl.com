@@ -8,7 +8,8 @@
     </div>
 
     <h1 class="about__h1">
-      Topic: {{ page.category | capitalize | replace: "_", " "}}
+      Topic:
+      {{ page.category | capitalize | replace: "_", " " | replace: "Wordpress", "WordPress" }}
     </h1>
   </div>
 </div>

@@ -5,6 +5,7 @@ date: "2020-06-20"
 categories:
   - development
   - tech_tips
+  - wordpress
 ---
 
 Once upon a time, there was a WordPress post editor that discovered it had turned into a simple HTML editor....
